@@ -1,48 +1,28 @@
 # Dongua Engineering Website
 
-## Vision
+Official corporate website of Dongua Engineering Solutions S.L.
 
-Professional engineering website designed to evolve into a complete digital platform for industrial engineering services and software solutions.
+## Status
 
----
+Under active development.
 
-## Goals
+## Technology
 
-- Professional company image
-- Fast loading
-- Responsive
-- SEO friendly
-- Scalable
-- Easy maintenance
+- Angular
+- TypeScript
+- SCSS
 
----
+## Main objectives
 
-## Tech Stack
+- Professional corporate presence
+- Responsive and mobile-first design
+- English and Spanish content
+- Search-engine optimisation
+- High performance
+- Accessibility
+- Scalable architecture
 
-Framework: Angular
+## Documentation
 
-Language: TypeScript
-
-Styling: SCSS
-
-Hosting: Cloudflare Pages
-
-Repository: GitHub
-
-Domain: Pending
-
-Email: Pending
-
----
-
-## Future
-
-Python API
-
-Industrial tools
-
-Client Portal
-
-Blog
-
-Data Analytics
+- [Architecture](docs/ARCHITECTURE.md)
+- [Roadmap](docs/ROADMAP.md)

@@ -3,8 +3,8 @@
 ## Phase 0
 
 - [x] Create GitHub account
-- [ ] Create repository
-- [ ] Define architecture
+- [x] Create repository
+- [x] Define architecture
 - [ ] Define branding
 
 ## Phase 1

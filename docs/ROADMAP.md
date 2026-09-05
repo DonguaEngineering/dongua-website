@@ -5,7 +5,7 @@
 - [x] Create GitHub account
 - [x] Create repository
 - [x] Define architecture
-- [ ] Define branding
+- [x] Define branding
 
 ## Phase 1
 

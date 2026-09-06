@@ -1,0 +1,45 @@
+.site-header{
+    background: var(--color-primary);
+    color: var(--color-background);
+}
+
+.header-container{
+    width: min(1200px, calc(100% - 3rem));
+    min-height: 5rem;
+    margin-inline: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.brand {
+    color: var(--color-background);
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.nav-list a{
+    color: var(--color-background);
+    text-decoration: none;
+    
+    transition: color 150ms ease;
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+    color: var(--color-accent);
+}

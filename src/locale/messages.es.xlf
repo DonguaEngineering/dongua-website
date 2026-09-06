@@ -38,11 +38,52 @@
         </context-group>
       </trans-unit>
       <trans-unit id="homeHeroSubtitle" datatype="html">
-        <source> Servicios especializados en diseño eléctrico para automatización industrial y el sector del agua del Reino Unido.
-</source>
+        <source> Servicios especializados en diseño eléctrico para automatización industrial y el sector del agua del Reino Unido.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.html</context>
           <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navHome" datatype="html">
+        <source> Inicio </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navAbout" datatype="html">
+        <source> Nosotros </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navServices" datatype="html">
+        <source> Servicios </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navIndustries" datatype="html">
+        <source> Sectores </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navContact" datatype="html">
+        <source> Contacto </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languageSelectorLabel" datatype="html">
+        <source>Selector de idioma</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/language-switcher/language-switcher.html</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
     </body>

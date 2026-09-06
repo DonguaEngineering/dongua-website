@@ -1,0 +1,21 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-switcher a {
+  color: var(--color-background);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.language-switcher a:hover,
+.language-switcher a.active {
+  color: var(--color-accent);
+}
+
+.language-switcher .active {
+  font-weight: 700;
+}

@@ -1,0 +1,54 @@
+<header class="site-header">
+    <div class="header-container">
+
+        <a class="brand" [routerLink]="['/']">
+            Dongua Engineering
+        </a>
+
+        <nav class="main-navigation" arial-label="Main navigation">
+            <ul class="nav-list">
+                <li>
+                    <a 
+                    [routerLink]="['/']"
+                    routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true}"
+                    i18n="@@navHome">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a
+                    [routerLink]="['/', routes.about]"
+                    routerLinkActive="active"
+                    i18n="@@navAbout">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a
+                        [routerLink]="['/', routes.services]"
+                        routerLinkActive="active"
+                        i18n="@@navServices"
+                    >
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a
+                    [routerLink]="['/', routes.industries]"
+                    routerLinkActive="active"
+                    i18n="@@navIndustries">
+                        Industries
+                    </a>
+                </li>
+                <li>
+                    <a
+                    [routerLink]="['/', routes.contact]"
+                    routerLinkActive="active"
+                    i18n="@@navContact">
+                        Contact  
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <app-language-switcher />

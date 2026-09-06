@@ -5,45 +5,85 @@
       <trans-unit id="routeAbout" datatype="html">
         <source>about</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="sourcefile">src/app/core/i18n/localized-routes.ts</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="routeServices" datatype="html">
         <source>services</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">src/app/core/i18n/localized-routes.ts</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="routeIndustries" datatype="html">
         <source>industries</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="sourcefile">src/app/core/i18n/localized-routes.ts</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="routeContact" datatype="html">
         <source>contact</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="sourcefile">src/app/core/i18n/localized-routes.ts</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeHeroTitle" datatype="html">
-        <source> Electrical Engineering &amp; Industrial Automation
-</source>
+        <source> Electrical Engineering &amp; Industrial Automation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">2,4</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeHeroSubtitle" datatype="html">
-        <source> Specialist electrical design services for industrial automation and the UK water industry.
-</source>
+        <source> Specialist electrical design services for industrial automation and the UK water industry.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">5,8</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navHome" datatype="html">
+        <source> Home </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navAbout" datatype="html">
+        <source> About </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navServices" datatype="html">
+        <source> Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navIndustries" datatype="html">
+        <source> Industries </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navContact" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languageSelectorLabel" datatype="html">
+        <source>Language selector</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/language-switcher/language-switcher.html</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
     </body>

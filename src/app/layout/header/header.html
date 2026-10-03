@@ -2,53 +2,67 @@
     <div class="header-container">
 
         <a class="brand" [routerLink]="['/']">
-            Dongua Engineering
+            <img
+                src="brand/logo-on-dark-compact.svg"
+                alt="Dongua Engineering"
+                class="brand-logo"
+            />
         </a>
+        <button class="menu-toggle" type="button" aria-label="header-actions">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-        <nav class="main-navigation" arial-label="Main navigation">
-            <ul class="nav-list">
-                <li>
-                    <a 
-                    [routerLink]="['/']"
-                    routerLinkActive="active"
-                    [routerLinkActiveOptions]="{ exact: true}"
-                    i18n="@@navHome">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a
-                    [routerLink]="['/', routes.about]"
-                    routerLinkActive="active"
-                    i18n="@@navAbout">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a
-                        [routerLink]="['/', routes.services]"
+        <div class="header-actions">
+            <nav class="main-navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a 
+                        [routerLink]="['/']"
                         routerLinkActive="active"
-                        i18n="@@navServices"
-                    >
-                        Services
-                    </a>
-                </li>
-                <li>
-                    <a
-                    [routerLink]="['/', routes.industries]"
-                    routerLinkActive="active"
-                    i18n="@@navIndustries">
-                        Industries
-                    </a>
-                </li>
-                <li>
-                    <a
-                    [routerLink]="['/', routes.contact]"
-                    routerLinkActive="active"
-                    i18n="@@navContact">
-                        Contact  
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                        [routerLinkActiveOptions]="{ exact: true}"
+                        i18n="@@navHome">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                        [routerLink]="['/', routes.about]"
+                        routerLinkActive="active"
+                        i18n="@@navAbout">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            [routerLink]="['/', routes.services]"
+                            routerLinkActive="active"
+                            i18n="@@navServices"
+                        >
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                        [routerLink]="['/', routes.industries]"
+                        routerLinkActive="active"
+                        i18n="@@navIndustries">
+                            Industries
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                        [routerLink]="['/', routes.contact]"
+                        routerLinkActive="active"
+                        i18n="@@navContact">
+                            Contact  
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <app-language-switcher />
+    </div>
+</header>
+        

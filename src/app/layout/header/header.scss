@@ -15,10 +15,14 @@
 }
 
 .brand {
-    color: var(--color-background);
-    text-decoration: none;
-    font-weight: 700;
-    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.brand-logo{
+    display: block;
+    width: auto;
+    height: 3.25rem;
 }
 
 .nav-list{

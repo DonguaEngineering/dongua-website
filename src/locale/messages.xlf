@@ -30,18 +30,39 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeHeroTitle" datatype="html">
-        <source> Electrical Engineering &amp; Industrial Automation</source>
+      <trans-unit id="homeHeroEyebrow" datatype="html">
+        <source> Electrical Engineering Solutions </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeHeroTitle" datatype="html">
+        <source> Electrical Engineering &amp; Industrial Automation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeHeroSubtitle" datatype="html">
-        <source> Specialist electrical design services for industrial automation and the UK water industry.</source>
+        <source> Specialist electrical design services for industrial automation and the UK water industry. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">4,6</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeHeroServicesCta" datatype="html">
+        <source> Our Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeHeroContactCta" datatype="html">
+        <source> Contact Us </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navHome" datatype="html">

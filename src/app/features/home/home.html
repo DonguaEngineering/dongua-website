@@ -1,6 +1,31 @@
-<h1 i18n="@@homeHeroTitle">
-    Electrical Engineering & Industrial Automation</h1>
-<p i18n="@@homeHeroSubtitle">
-    Specialist electrical design services for industrial automation and the UK water industry.</p>
+<section class="hero">
+    <div class="hero-visual" aria-hidden="true">
+        <img 
+            src="images/home/hero-engineering.png"
+            alt=""
+        />
+    </div>
+    <div class="hero-container">
+        <div class="hero-content">
+            <p class="hero-eyebrow" i18n="@@homeHeroEyebrow">
+                Electrical Engineering Solutions
+            </p>
+            <h1 i18n="@@homeHeroTitle">
+                Electrical Engineering & Industrial Automation
+            </h1>
+        
+            <p class="hero-description" i18n="@@homeHeroSubtitle">
+                Specialist electrical design services for industrial automation and the UK water industry.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" [routerLink]="['/', routes.services]" i18n="@@homeHeroServicesCta">
+                    Our Services
+                </a>
+                <a class="button button-secondary" [routerLink]="['/', routes.contact]" i18n="@@homeHeroContactCta">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
 
 

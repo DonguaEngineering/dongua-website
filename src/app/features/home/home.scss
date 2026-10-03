@@ -12,12 +12,18 @@
     background: var(--color-background);
 }
 
+.hero-container,
+.core-services-container,
+.water-sector-container,
+.remote-support-container {
+    width: min(1200px, calc(100% - 2rem));
+    margin-inline: auto;
+}
+
 .hero-container {
     position: relative;
     z-index: 1;
 
-    width: min(1200px, calc(100% - 2rem));
-    margin-inline: auto;
     padding-block: 4rem;
 }
 
@@ -25,7 +31,9 @@
     max-width: 38rem;
 }
 
-.hero-eyebrow {
+.hero-eyebrow,
+.section-eyebrow,
+.final-cta-eyebrow {
     margin: 0 0 1rem;
 
     color: var(--color-accent);
@@ -55,15 +63,20 @@
     line-height: 1.7;
 }
 
-.hero-actions {
+.hero-actions,
+.remote-support-audiences {
     display: flex;
     flex-wrap: wrap;
+}
+
+.hero-actions {
     gap: 1rem;
 
     margin-top: 2rem;
 }
 
-.button {
+.button,
+.final-cta-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -73,8 +86,11 @@
 
     border-radius: 0.25rem;
 
-    font-weight: 600;
     text-decoration: none;
+}
+
+.button {
+    font-weight: 600;
 
     transition:
         background-color 150ms ease,
@@ -145,58 +161,36 @@
     );
 }
 
-@media (min-width: 64rem) {
-    .hero {
-        min-height: 44rem;
-    }
-
-    .hero-container {
-        width: min(1200px, calc(100% - 3rem));
-        padding-block: 6rem;
-    }
-
-    .hero-content {
-        max-width: 40rem;
-    }
-
-    .hero-visual {
-        left: 12%;
-        right: -12%;
-    }
-}
 .core-services {
     padding-block: 5rem;
 
     background: var(--color-surface);
 }
 
-.core-services-container {
-    width: min(1200px, calc(100% - 2rem));
-    margin-inline: auto;
-}
-
 .section-header {
     max-width: 44rem;
 }
 
-.section-eyebrow {
-    margin: 0 0 1rem;
-
-    color: var(--color-accent);
-
-    font-size: 0.875rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.section-header h2 {
+.section-header h2,
+.water-sector h2,
+.remote-support h2 {
     margin: 0;
-
-    color: var(--color-primary);
 
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 1.1;
+}
+
+.section-header h2,
+.remote-support h2 {
+    color: var(--color-primary);
+}
+
+.section-description,
+.water-sector-description,
+.remote-support-description,
+.final-cta-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
 }
 
 .section-description {
@@ -204,9 +198,6 @@
     margin: 1.25rem 0 0;
 
     color: var(--color-text);
-
-    font-size: 1.05rem;
-    line-height: 1.7;
 }
 
 .services-grid {
@@ -237,16 +228,20 @@
     border-color: var(--color-accent);
 }
 
-.service-number {
-    display: inline-block;
-
-    margin-bottom: 2rem;
-
+.service-number,
+.water-sector-panel-number,
+.support-flow-number {
     color: var(--color-accent);
 
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.08em;
+}
+
+.service-number {
+    display: inline-block;
+
+    margin-bottom: 2rem;
 }
 
 .service-card h3 {
@@ -266,42 +261,40 @@
     line-height: 1.7;
 }
 
-.services-link {
+.services-link,
+.water-sector-link,
+.remote-support-link {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-
-    margin-top: 2.5rem;
-
-    color: var(--color-primary);
 
     font-weight: 600;
     text-decoration: none;
 }
 
-.services-link:hover {
+.services-link {
+    margin-top: 2.5rem;
+
+    color: var(--color-primary);
+}
+
+.water-sector-link,
+.remote-support-link {
+    margin-top: 2rem;
+}
+
+.services-link:hover,
+.remote-support-link:hover {
     color: var(--color-secondary);
 }
 
-.services-link:focus-visible {
+.services-link:focus-visible,
+.water-sector-link:focus-visible,
+.remote-support-link:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 4px;
 }
 
-@media (min-width: 48rem) {
-    .core-services {
-        padding-block: 6rem;
-    }
-
-    .core-services-container {
-        width: min(1200px, calc(100% - 3rem));
-    }
-
-    .services-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
-    }
-}
 .water-sector {
     padding-block: 5rem;
 
@@ -309,69 +302,48 @@
     color: var(--color-background);
 }
 
-.water-sector-container {
+.water-sector-container,
+.remote-support-container {
     display: grid;
-    gap: 3.5rem;
+}
 
-    width: min(1200px, calc(100% - 2rem));
-    margin-inline: auto;
+.water-sector-container {
+    gap: 3.5rem;
 }
 
 .water-sector-content {
     max-width: 40rem;
 }
 
-.water-sector .section-eyebrow {
-    color: var(--color-accent);
-}
-
 .water-sector h2 {
-    margin: 0;
-
     color: var(--color-background);
-
-    font-size: clamp(2rem, 5vw, 3rem);
-    line-height: 1.1;
 }
 
 .water-sector-description {
     margin: 1.5rem 0 0;
 
     color: rgba(245, 245, 240, 0.82);
-
-    font-size: 1.05rem;
-    line-height: 1.7;
 }
 
 .water-sector-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-
-    margin-top: 2rem;
-
     color: var(--color-accent);
-
-    font-weight: 600;
-    text-decoration: none;
 }
 
 .water-sector-link:hover {
     color: var(--color-background);
 }
 
-.water-sector-link:focus-visible {
-    outline: 2px solid var(--color-accent);
-    outline-offset: 4px;
-}
-
 .water-sector-panel {
     border-top: 1px solid rgba(245, 245, 240, 0.2);
 }
 
-.water-sector-panel-item {
+.water-sector-panel-item,
+.support-flow-item {
     display: grid;
     grid-template-columns: auto 1fr;
+}
+
+.water-sector-panel-item {
     gap: 1.5rem;
 
     padding-block: 1.75rem;
@@ -381,45 +353,262 @@
 
 .water-sector-panel-number {
     padding-top: 0.25rem;
+}
+
+.water-sector-panel h3,
+.support-flow-item h3 {
+    margin: 0;
+
+    font-size: 1.2rem;
+}
+
+.water-sector-panel h3 {
+    color: var(--color-background);
+}
+
+.water-sector-panel p,
+.support-flow-item p {
+    margin: 0.75rem 0 0;
+
+    line-height: 1.6;
+}
+
+.water-sector-panel p {
+    color: rgba(245, 245, 240, 0.72);
+}
+
+.remote-support {
+    padding-block: 5rem;
+
+    background: var(--color-background);
+}
+
+.remote-support-container {
+    gap: 4rem;
+}
+
+.remote-support-content {
+    max-width: 42rem;
+}
+
+.remote-support-description {
+    margin: 1.5rem 0 0;
+
+    color: var(--color-text);
+}
+
+.remote-support-audiences {
+    gap: 0.75rem;
+
+    margin-top: 2rem;
+}
+
+.remote-support-audiences span {
+    padding: 0.6rem 0.9rem;
+
+    border: 1px solid rgba(21, 37, 30, 0.18);
+    border-radius: 999px;
+
+    background: var(--color-surface);
+    color: var(--color-primary);
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.remote-support-link {
+    color: var(--color-primary);
+}
+
+.remote-support-process {
+    padding: 2rem;
+
+    border: 1px solid rgba(21, 37, 30, 0.14);
+
+    background: var(--color-surface);
+}
+
+.remote-support-process-label {
+    margin: 0 0 2rem;
 
     color: var(--color-accent);
 
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
-.water-sector-panel h3 {
+.support-flow {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.support-flow-item {
+    position: relative;
+
+    gap: 1.25rem;
+
+    padding-bottom: 2rem;
+}
+
+.support-flow-item:not(:last-child) {
+    margin-bottom: 2rem;
+
+    border-bottom: 1px solid rgba(21, 37, 30, 0.12);
+}
+
+.support-flow-number {
+    padding-top: 0.2rem;
+}
+
+.support-flow-item h3 {
+    color: var(--color-primary);
+}
+
+.support-flow-item p {
+    color: var(--color-text);
+}
+
+.final-cta {
+    padding: 1rem;
+
+    background: var(--color-background);
+}
+
+.final-cta-container {
+    width: min(1200px, 100%);
+    margin-inline: auto;
+    padding: 4rem 2rem;
+
+    background: var(--color-primary);
+}
+
+.final-cta-content {
+    max-width: 44rem;
+    margin-inline: auto;
+
+    text-align: center;
+}
+
+.final-cta h2 {
     margin: 0;
 
     color: var(--color-background);
 
-    font-size: 1.2rem;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
 }
 
-.water-sector-panel p {
-    margin: 0.75rem 0 0;
+.final-cta-description {
+    max-width: 36rem;
+    margin: 1.5rem auto 0;
 
-    color: rgba(245, 245, 240, 0.72);
+    color: rgba(245, 245, 240, 0.82);
+}
 
-    line-height: 1.6;
+.final-cta-button {
+    gap: 0.6rem;
+
+    margin-top: 2rem;
+
+    background: var(--color-accent);
+    color: var(--color-primary);
+
+    font-weight: 700;
+
+    transition:
+        background-color 150ms ease,
+        transform 150ms ease;
+}
+
+.final-cta-button:hover {
+    transform: translateY(-0.125rem);
+
+    background: var(--color-background);
+}
+
+.final-cta-button:focus-visible {
+    outline: 2px solid var(--color-background);
+    outline-offset: 4px;
 }
 
 @media (min-width: 48rem) {
-    .water-sector {
+    .core-services,
+    .water-sector,
+    .remote-support {
         padding-block: 6rem;
     }
 
-    .water-sector-container {
+    .core-services-container,
+    .water-sector-container,
+    .remote-support-container {
         width: min(1200px, calc(100% - 3rem));
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .remote-support-process {
+        padding: 2.5rem;
+    }
+
+    .final-cta {
+        padding: 2rem 3rem;
+    }
+
+    .final-cta-container {
+        padding: 5rem 3rem;
     }
 }
 
 @media (min-width: 64rem) {
+    .hero {
+        min-height: 44rem;
+    }
+
+    .hero-container {
+        width: min(1200px, calc(100% - 3rem));
+        padding-block: 6rem;
+    }
+
+    .hero-content {
+        max-width: 40rem;
+    }
+
+    .hero-visual {
+        left: 12%;
+        right: -12%;
+    }
+
+    .water-sector-container,
+    .remote-support-container {
+        align-items: center;
+    }
+
     .water-sector-container {
         grid-template-columns: 1.05fr 0.95fr;
         gap: 6rem;
+    }
 
-        align-items: center;
+    .remote-support-container {
+        grid-template-columns: 1.15fr 0.95fr;
+        gap: 5rem;
+    }
+
+    .remote-support-audiences {
+        flex-wrap: nowrap;
+        gap: 0.6rem;
+    }
+
+    .remote-support-audiences span {
+        padding-inline: 0.75rem;
+
+        font-size: 0.85rem;
+        white-space: nowrap;
     }
 }

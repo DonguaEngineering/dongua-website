@@ -212,6 +212,132 @@
           <context context-type="linenumber">202,204</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="homeRemoteEyebrow" datatype="html">
+        <source> Remote Engineering Support </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">217,218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteTitle" datatype="html">
+        <source> Specialist electrical engineering support that integrates with your team </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">221,222</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteDescription" datatype="html">
+        <source> Flexible electrical design support for system integrators, panel builders and engineering contractors requiring additional engineering capacity for industrial automation projects. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteAudienceIntegrators" datatype="html">
+        <source> System Integrators </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">235,237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteAudiencePanelBuilders" datatype="html">
+        <source> Panel Builders </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">239,242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteAudienceContractors" datatype="html">
+        <source> Engineering Contractors </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">243,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteCta" datatype="html">
+        <source> Discuss your project <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">252,255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteProcessLabel" datatype="html">
+        <source> Engineering workflow </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">262,265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteRequirementsTitle" datatype="html">
+        <source> Project Requirements </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">273,274</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteRequirementsDescription" datatype="html">
+        <source> Client standards, specifications and engineering requirements define the design basis. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">277,278</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteEngineeringTitle" datatype="html">
+        <source> Electrical Engineering </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">290,291</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteEngineeringDescription" datatype="html">
+        <source> Electrical design developed as part of the wider project engineering workflow. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">294,295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteDeliverablesTitle" datatype="html">
+        <source> Engineering Deliverables </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">307,308</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeRemoteDeliverablesDescription" datatype="html">
+        <source> Structured drawings and documentation ready to support manufacture, testing and project delivery. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">311,312</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeFinalCtaEyebrow" datatype="html">
+        <source> Let&apos;s Work Together </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">327,330</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeFinalCtaTitle" datatype="html">
+        <source> Need additional electrical engineering capacity? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">331,332</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeFinalCtaDescription" datatype="html">
+        <source> Get in touch to discuss how Dongua Engineering can support your industrial automation project. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">338,340</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeFinalCtaButton" datatype="html">
+        <source> Discuss your project <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">347,350</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="navHome" datatype="html">
         <source> Home </source>
         <context-group purpose="location">

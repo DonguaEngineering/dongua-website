@@ -107,48 +107,75 @@
           <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeServicesEyebrow" datatype="html">
-        <source> Servicios Principales </source>
+    <trans-unit id="homeServicesEyebrow" datatype="html">
+      <source> Servicios Principales </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">38,41</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeServicesTitle" datatype="html">
+        <source> Ingeniería eléctrica para automatización industrial </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">38,41</context>
+          <context context-type="linenumber">42,43</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeServicesTitle" datatype="html">
-    <source>Electrical engineering for industrial automation</source>
-    <target>Ingeniería eléctrica para automatización industrial</target>
     </trans-unit>
     <trans-unit id="homeServicesDescription" datatype="html">
-        <source>Practical electrical design support focused on reliable, buildable and maintainable industrial systems.</source>
-        <target>Soporte práctico de diseño eléctrico orientado a sistemas industriales fiables, fabricables y fáciles de mantener.</target>
+        <source> Soporte práctico de diseño eléctrico orientado a sistemas industriales fiables, fabricables y fáciles de mantener. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServiceElectricalDesignTitle" datatype="html">
-        <source>Electrical Design &amp; Engineering</source>
-        <target>Diseño e ingeniería eléctrica</target>
+        <source> Diseño e ingeniería eléctrica </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServiceElectricalDesignDescription" datatype="html">
-        <source>Electrical schematics, circuit design and detailed engineering documentation for industrial automation projects.</source>
-        <target>Esquemas eléctricos, diseño de circuitos y documentación detallada de ingeniería para proyectos de automatización industrial.</target>
+        <source> Esquemas eléctricos, diseño de circuitos y documentación detallada de ingeniería para proyectos de automatización industrial. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>  
     </trans-unit>
     <trans-unit id="homeServicePanelsTitle" datatype="html">
-        <source>Control Panel &amp; MCC Design</source>
-        <target>Diseño de cuadros de control y MCC</target>
+        <source> Diseño de cuadros de control y MCC </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServicePanelsDescription" datatype="html">
-        <source>Design of control panels, motor control centres and associated power and control systems.</source>
-        <target>Diseño de cuadros de control, centros de control de motores y sistemas asociados de potencia y control.</target>
+        <source> Diseño de cuadros de control, centros de control de motores y sistemas asociados de potencia y control. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">87,89</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServiceDocumentationTitle" datatype="html">
-        <source>Electrical Documentation</source>
-        <target>Documentación eléctrica</target>
+        <source> Documentación eléctrica </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">101,104</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServiceDocumentationDescription" datatype="html">
-        <source>Clear and structured electrical drawings and technical documentation prepared for manufacture, installation and commissioning.</source>
-        <target>Planos eléctricos claros y estructurados, junto con documentación técnica preparada para fabricación, instalación y puesta en marcha.</target>
+        <source> Planos eléctricos claros y estructurados, junto con documentación técnica preparada para fabricación, instalación y puesta en marcha. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeServicesCta" datatype="html">
-        <source>Explore our services</source>
-        <target>Explorar nuestros servicios</target>
+        <source> Explorar nuestros servicios <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">117,120</context>
+        </context-group>
     </trans-unit>
     <trans-unit id="homeWaterEyebrow" datatype="html">
         <source> Agua potable y Aguas residuales </source>
@@ -156,77 +183,203 @@
           <context context-type="sourcefile">src/app/features/home/home.html</context>
           <context context-type="linenumber">126,127</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterTitle" datatype="html">
+    </trans-unit>
+    <trans-unit id="homeWaterTitle" datatype="html">
         <source> Experiencia en diseño eléctrico para el sector del agua en Reino Unido </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
           <context context-type="linenumber">130,131</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterDescription" datatype="html">
-        <source> Experiencia en soporte de diseño eléctrico para proyectos de automatización de agua y aguas residuales, con especial atención a cuadros de control, MCC, control de motores y documentación de ingeniería estructurada. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">134,137</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterSecondaryDescription" datatype="html">
-        <source> Soporte de ingeniería orientado a integrarse en el desarrollo global del proyecto, desde los requisitos de diseño hasta la fabricación, las pruebas y la puesta en marcha. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">141,143</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterCta" datatype="html">
-        <source> Explorar sectores <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">151,154</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelDesignTitle" datatype="html">
-        <source> Diseño Eléctrico </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">164,165</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelDesignDescription" datatype="html">
+    </trans-unit>
+    <trans-unit id="homeWaterDescription" datatype="html">
+      <source> Experiencia en soporte de diseño eléctrico para proyectos de automatización de agua y aguas residuales, con especial atención a cuadros de control, MCC, control de motores y documentación de ingeniería estructurada. </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">134,137</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterSecondaryDescription" datatype="html">
+      <source> Soporte de ingeniería orientado a integrarse en el desarrollo global del proyecto, desde los requisitos de diseño hasta la fabricación, las pruebas y la puesta en marcha. </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">141,143</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterCta" datatype="html">
+      <source> Explorar sectores <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">151,154</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelDesignTitle" datatype="html">
+      <source> Diseño Eléctrico </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">164,165</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelDesignDescription" datatype="html">
         <source> Esquemas e ingeniería eléctrica detallada para sistemas de control industrial. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
           <context context-type="linenumber">168,169</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelMccTitle" datatype="html">
-        <source> Cuadros de control y MCC </source>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelMccTitle" datatype="html">
+      <source> Cuadros de control y MCC </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">181,182</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelMccDescription" datatype="html">
+      <source> Diseño eléctrico para aplicaciones de control de motores y automatización. </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">185,186</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelDeliveryTitle" datatype="html">
+      <source> Desarrollo del proyecto </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">198,199</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeWaterPanelDeliveryDescription" datatype="html">
+      <source> Documentación de soporte para fabricación, pruebas, instalación y puesta en marcha. </source>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/app/features/home/home.html</context>
+        <context context-type="linenumber">202,204</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteEyebrow" datatype="html">
+      <source> Soporte de ingeniería remota </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">181,182</context>
+          <context context-type="linenumber">217,218</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelMccDescription" datatype="html">
-        <source> Diseño eléctrico para aplicaciones de control de motores y automatización. </source>
+    </trans-unit>
+    <trans-unit id="homeRemoteTitle" datatype="html">
+      <source> Soporte especializado de ingeniería eléctrica integrado con tu equipo </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">185,186</context>
+          <context context-type="linenumber">221,222</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelDeliveryTitle" datatype="html">
-        <source> Desarrollo del proyecto </source>
+    </trans-unit>
+    <trans-unit id="homeRemoteDescription" datatype="html">
+      <source> Soporte flexible de diseño eléctrico para integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería que necesiten capacidad adicional de ingeniería para proyectos de automatización industrial. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">198,199</context>
+          <context context-type="linenumber">228,230</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="homeWaterPanelDeliveryDescription" datatype="html">
-        <source> Documentación de soporte para fabricación, pruebas, instalación y puesta en marcha. </source>
+    </trans-unit>
+    <trans-unit id="homeRemoteAudienceIntegrators" datatype="html">
+      <source> Integradores de sistemas </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">202,204</context>
+          <context context-type="linenumber">235,237</context>
         </context-group>
-      </trans-unit>
+    </trans-unit>
+    <trans-unit id="homeRemoteAudiencePanelBuilders" datatype="html">
+      <source> Fabricantes de cuadros </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">239,242</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteAudienceContractors" datatype="html">
+      <source> Contratistas de ingeniería </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">243,245</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteCta" datatype="html">
+      <source> Hablemos de tu proyecto <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">252,255</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteProcessLabel" datatype="html">
+      <source> Flujo de ingeniería </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">262,265</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteRequirementsTitle" datatype="html">
+      <source> Requisitos del proyecto </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">273,274</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteRequirementsDescription" datatype="html">
+      <source> Los estándares, especificaciones y requisitos de ingeniería del cliente definen las bases del diseño. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">277,278</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteEngineeringTitle" datatype="html">
+      <source> Ingeniería eléctrica </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">290,291</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteEngineeringDescription" datatype="html">
+      <source> Diseño eléctrico desarrollado como parte del proceso global de ingeniería del proyecto. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">294,295</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteDeliverablesTitle" datatype="html">
+      <source> Entregables de ingeniería </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">307,308</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeRemoteDeliverablesDescription" datatype="html">
+      <source> Planos y documentación estructurados para dar soporte a la fabricación, las pruebas y el desarrollo del proyecto. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">311,312</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeFinalCtaEyebrow" datatype="html">
+      <source> Trabajemos juntos </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">327,330</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeFinalCtaTitle" datatype="html">
+      <source> ¿Necesitas capacidad adicional de ingeniería eléctrica? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">331,332</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeFinalCtaDescription" datatype="html">
+      <source> Ponte en contacto para hablar sobre cómo Dongua Engineering puede apoyar tu proyecto de automatización industrial. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">338,340</context>
+        </context-group>
+    </trans-unit>
+    <trans-unit id="homeFinalCtaButton" datatype="html">
+      <source> Hablemos de tu proyecto <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">347,350</context>
+        </context-group>
+    </trans-unit>
     </body>
   </file>
 </xliff>

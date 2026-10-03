@@ -150,6 +150,83 @@
         <source>Explore our services</source>
         <target>Explorar nuestros servicios</target>
     </trans-unit>
+    <trans-unit id="homeWaterEyebrow" datatype="html">
+        <source> Agua potable y Aguas residuales </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">126,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterTitle" datatype="html">
+        <source> Experiencia en diseño eléctrico para el sector del agua en Reino Unido </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterDescription" datatype="html">
+        <source> Experiencia en soporte de diseño eléctrico para proyectos de automatización de agua y aguas residuales, con especial atención a cuadros de control, MCC, control de motores y documentación de ingeniería estructurada. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">134,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterSecondaryDescription" datatype="html">
+        <source> Soporte de ingeniería orientado a integrarse en el desarrollo global del proyecto, desde los requisitos de diseño hasta la fabricación, las pruebas y la puesta en marcha. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterCta" datatype="html">
+        <source> Explorar sectores <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDesignTitle" datatype="html">
+        <source> Diseño Eléctrico </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDesignDescription" datatype="html">
+        <source> Esquemas e ingeniería eléctrica detallada para sistemas de control industrial. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">168,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelMccTitle" datatype="html">
+        <source> Cuadros de control y MCC </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">181,182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelMccDescription" datatype="html">
+        <source> Diseño eléctrico para aplicaciones de control de motores y automatización. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">185,186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDeliveryTitle" datatype="html">
+        <source> Desarrollo del proyecto </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">198,199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDeliveryDescription" datatype="html">
+        <source> Documentación de soporte para fabricación, pruebas, instalación y puesta en marcha. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">202,204</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

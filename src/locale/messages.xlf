@@ -135,6 +135,83 @@
           <context context-type="linenumber">117,120</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="homeWaterEyebrow" datatype="html">
+        <source> Water &amp; Wastewater </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">126,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterTitle" datatype="html">
+        <source> Electrical design experience for the UK water industry </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterDescription" datatype="html">
+        <source> Experience supporting electrical design for water and wastewater automation projects, with a focus on control panels, MCCs, motor control and structured engineering documentation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">134,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterSecondaryDescription" datatype="html">
+        <source> Engineering support developed to integrate with wider project delivery, from design requirements through manufacture, testing and commissioning. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterCta" datatype="html">
+        <source> Explore industries <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDesignTitle" datatype="html">
+        <source> Electrical Design </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDesignDescription" datatype="html">
+        <source> Schematics and detailed electrical engineering for industrial control systems. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">168,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelMccTitle" datatype="html">
+        <source> Control Panels &amp; MCCs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">181,182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelMccDescription" datatype="html">
+        <source> Electrical design supporting motor control and automation applications. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">185,186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDeliveryTitle" datatype="html">
+        <source> Project Delivery </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">198,199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeWaterPanelDeliveryDescription" datatype="html">
+        <source> Documentation supporting manufacture, testing, installation and commissioning. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">202,204</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="navHome" datatype="html">
         <source> Home </source>
         <context-group purpose="location">

@@ -302,3 +302,124 @@
         gap: 1.5rem;
     }
 }
+.water-sector {
+    padding-block: 5rem;
+
+    background: var(--color-primary);
+    color: var(--color-background);
+}
+
+.water-sector-container {
+    display: grid;
+    gap: 3.5rem;
+
+    width: min(1200px, calc(100% - 2rem));
+    margin-inline: auto;
+}
+
+.water-sector-content {
+    max-width: 40rem;
+}
+
+.water-sector .section-eyebrow {
+    color: var(--color-accent);
+}
+
+.water-sector h2 {
+    margin: 0;
+
+    color: var(--color-background);
+
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+}
+
+.water-sector-description {
+    margin: 1.5rem 0 0;
+
+    color: rgba(245, 245, 240, 0.82);
+
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.water-sector-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: 2rem;
+
+    color: var(--color-accent);
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.water-sector-link:hover {
+    color: var(--color-background);
+}
+
+.water-sector-link:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+.water-sector-panel {
+    border-top: 1px solid rgba(245, 245, 240, 0.2);
+}
+
+.water-sector-panel-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+
+    padding-block: 1.75rem;
+
+    border-bottom: 1px solid rgba(245, 245, 240, 0.2);
+}
+
+.water-sector-panel-number {
+    padding-top: 0.25rem;
+
+    color: var(--color-accent);
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.water-sector-panel h3 {
+    margin: 0;
+
+    color: var(--color-background);
+
+    font-size: 1.2rem;
+}
+
+.water-sector-panel p {
+    margin: 0.75rem 0 0;
+
+    color: rgba(245, 245, 240, 0.72);
+
+    line-height: 1.6;
+}
+
+@media (min-width: 48rem) {
+    .water-sector {
+        padding-block: 6rem;
+    }
+
+    .water-sector-container {
+        width: min(1200px, calc(100% - 3rem));
+    }
+}
+
+@media (min-width: 64rem) {
+    .water-sector-container {
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 6rem;
+
+        align-items: center;
+    }
+}

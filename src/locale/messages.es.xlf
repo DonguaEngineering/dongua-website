@@ -107,6 +107,49 @@
           <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="homeServicesEyebrow" datatype="html">
+        <source> Servicios Principales </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/home.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeServicesTitle" datatype="html">
+    <source>Electrical engineering for industrial automation</source>
+    <target>Ingeniería eléctrica para automatización industrial</target>
+    </trans-unit>
+    <trans-unit id="homeServicesDescription" datatype="html">
+        <source>Practical electrical design support focused on reliable, buildable and maintainable industrial systems.</source>
+        <target>Soporte práctico de diseño eléctrico orientado a sistemas industriales fiables, fabricables y fáciles de mantener.</target>
+    </trans-unit>
+    <trans-unit id="homeServiceElectricalDesignTitle" datatype="html">
+        <source>Electrical Design &amp; Engineering</source>
+        <target>Diseño e ingeniería eléctrica</target>
+    </trans-unit>
+    <trans-unit id="homeServiceElectricalDesignDescription" datatype="html">
+        <source>Electrical schematics, circuit design and detailed engineering documentation for industrial automation projects.</source>
+        <target>Esquemas eléctricos, diseño de circuitos y documentación detallada de ingeniería para proyectos de automatización industrial.</target>
+    </trans-unit>
+    <trans-unit id="homeServicePanelsTitle" datatype="html">
+        <source>Control Panel &amp; MCC Design</source>
+        <target>Diseño de cuadros de control y MCC</target>
+    </trans-unit>
+    <trans-unit id="homeServicePanelsDescription" datatype="html">
+        <source>Design of control panels, motor control centres and associated power and control systems.</source>
+        <target>Diseño de cuadros de control, centros de control de motores y sistemas asociados de potencia y control.</target>
+    </trans-unit>
+    <trans-unit id="homeServiceDocumentationTitle" datatype="html">
+        <source>Electrical Documentation</source>
+        <target>Documentación eléctrica</target>
+    </trans-unit>
+    <trans-unit id="homeServiceDocumentationDescription" datatype="html">
+        <source>Clear and structured electrical drawings and technical documentation prepared for manufacture, installation and commissioning.</source>
+        <target>Planos eléctricos claros y estructurados, junto con documentación técnica preparada para fabricación, instalación y puesta en marcha.</target>
+    </trans-unit>
+    <trans-unit id="homeServicesCta" datatype="html">
+        <source>Explore our services</source>
+        <target>Explorar nuestros servicios</target>
+    </trans-unit>
     </body>
   </file>
 </xliff>

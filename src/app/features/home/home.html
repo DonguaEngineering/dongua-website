@@ -27,5 +27,97 @@
             </div>
         </div>
     </div>
+</section>
+<section class="core-services">
+    <div class="core-services-container">
+        <header class="section-header">
+            <p
+                class="section-eyebrow"
+                i18n="@@homeServicesEyebrow"
+            >
+                Core Services
+            </p>
+
+            <h2 i18n="@@homeServicesTitle">
+                Electrical engineering for industrial automation
+            </h2>
+
+            <p
+                class="section-description"
+                i18n="@@homeServicesDescription"
+            >
+                Practical electrical design support focused on reliable,
+                buildable and maintainable industrial systems.
+            </p>
+        </header>
+
+        <div class="services-grid">
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    01
+                </span>
+
+                <h3 i18n="@@homeServiceElectricalDesignTitle">
+                    Electrical Design & Engineering
+                </h3>
+
+                <p i18n="@@homeServiceElectricalDesignDescription">
+                    Electrical schematics, circuit design and detailed
+                    engineering documentation for industrial automation
+                    projects.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    02
+                </span>
+
+                <h3 i18n="@@homeServicePanelsTitle">
+                    Control Panel & MCC Design
+                </h3>
+
+                <p i18n="@@homeServicePanelsDescription">
+                    Design of control panels, motor control centres and
+                    associated power and control systems.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    03
+                </span>
+
+                <h3 i18n="@@homeServiceDocumentationTitle">
+                    Electrical Documentation
+                </h3>
+
+                <p i18n="@@homeServiceDocumentationDescription">
+                    Clear and structured electrical drawings and technical
+                    documentation prepared for manufacture, installation and
+                    commissioning.
+                </p>
+            </article>
+        </div>
+
+        <a
+            class="services-link"
+            [routerLink]="['/', routes.services]"
+            i18n="@@homeServicesCta"
+        >
+            Explore our services
+            <span aria-hidden="true">→</span>
+        </a>
+    </div>
+</section>  
 
 

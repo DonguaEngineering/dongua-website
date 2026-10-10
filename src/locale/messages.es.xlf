@@ -45,7 +45,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="homeHeroSubtitle" datatype="html">
-        <source> Servicios especializados en diseño eléctrico para automatización industrial y el sector del agua del Reino Unido.</source>
+        <source> Servicios especializados en diseño eléctrico para la automatización industrial y el sector del agua del Reino Unido.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.html</context>
           <context context-type="linenumber">4,5</context>

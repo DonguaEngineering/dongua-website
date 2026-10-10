@@ -1,13 +1,13 @@
 <section class="hero">
     <div class="hero-visual" aria-hidden="true">
         <img 
-            src="images/home/hero-engineering.png"
+            src="images/home/hero-engineering2.png"
             alt=""
         />
     </div>
-    <div class="hero-container">
+    <div class="hero-container site-container">
         <div class="hero-content">
-            <p class="hero-eyebrow" i18n="@@homeHeroEyebrow">
+            <p class="hero-eyebrow section-eyebrow" i18n="@@homeHeroEyebrow">
                 Electrical Engineering Solutions
             </p>
             <h1 i18n="@@homeHeroTitle">
@@ -29,7 +29,7 @@
     </div>
 </section>
 <section class="core-services">
-    <div class="core-services-container">
+    <div class="core-services-container site-container">
         <header class="section-header">
             <p
                 class="section-eyebrow"
@@ -38,12 +38,14 @@
                 Core Services
             </p>
 
-            <h2 i18n="@@homeServicesTitle">
+            <h2 
+                class="section-title"
+                i18n="@@homeServicesTitle">
                 Electrical engineering for industrial automation
             </h2>
 
             <p
-                class="section-description"
+                class="section-description section-copy"
                 i18n="@@homeServicesDescription"
             >
                 Practical electrical design support focused on reliable,
@@ -110,7 +112,7 @@
         </div>
 
         <a
-            class="services-link"
+            class="services-link text-link"
             [routerLink]="['/', routes.services]"
             i18n="@@homeServicesCta"
         >
@@ -120,31 +122,33 @@
     </div>
 </section>
 <section class="water-sector">
-    <div class="water-sector-container">
+    <div class="water-sector-container site-container">
         <div class="water-sector-content">
             <p class="section-eyebrow" i18n="@@homeWaterEyebrow">
                 Water & Wastewater
             </p>
 
-            <h2 i18n="@@homeWaterTitle">
+            <h2 
+                class="section-title"
+                i18n="@@homeWaterTitle">
                 Electrical design experience for the UK water industry
             </h2>
 
-            <p class="water-sector-description" i18n="@@homeWaterDescription">
+            <p class="water-sector-description section-copy" i18n="@@homeWaterDescription">
                 Experience supporting electrical design for water and
                 wastewater automation projects, with a focus on control
                 panels, MCCs, motor control and structured engineering
                 documentation.
             </p>
 
-            <p class="water-sector-description" i18n="@@homeWaterSecondaryDescription">
+            <p class="water-sector-description section-copy" i18n="@@homeWaterSecondaryDescription">
                 Engineering support developed to integrate with wider project
                 delivery, from design requirements through manufacture,
                 testing and commissioning.
             </p>
 
             <a
-                class="water-sector-link"
+                class="water-sector-link text-link"
                 [routerLink]="['/', routes.industries]"
                 i18n="@@homeWaterCta"
             >
@@ -208,21 +212,23 @@
     </div>
 </section>
 <section class="remote-support">
-    <div class="remote-support-container">
+    <div class="remote-support-container site-container">
         <div class="remote-support-content">
             <p
-                class="section-eyebrow"
+                class="hero-eyebrow section-eyebrow"
                 i18n="@@homeRemoteEyebrow"
             >
                 Remote Engineering Support
             </p>
 
-            <h2 i18n="@@homeRemoteTitle">
+            <h2 
+                class="section-title"
+                i18n="@@homeRemoteTitle">
                 Specialist electrical engineering support that integrates with your team
             </h2>
 
             <p
-                class="remote-support-description"
+                class="remote-support-description section-copy"
                 i18n="@@homeRemoteDescription"
             >
                 Flexible electrical design support for system integrators,
@@ -245,7 +251,7 @@
             </div>
 
             <a
-                class="remote-support-link"
+                class="remote-support-link text-link"
                 [routerLink]="['/', routes.contact]"
                 i18n="@@homeRemoteCta"
             >
@@ -321,7 +327,7 @@
     <div class="final-cta-container">
         <div class="final-cta-content">
             <p
-                class="final-cta-eyebrow"
+                class="final-cta-eyebrow section-eyebrow"
                 i18n="@@homeFinalCtaEyebrow"
             >
                 Let's Work Together
@@ -332,7 +338,7 @@
             </h2>
 
             <p
-                class="final-cta-description"
+                class="final-cta-description section-copy"
                 i18n="@@homeFinalCtaDescription"
             >
                 Get in touch to discuss how Dongua Engineering can support
@@ -340,7 +346,7 @@
             </p>
 
             <a
-                class="final-cta-button"
+                class="final-cta-button button"
                 [routerLink]="['/', routes.contact]"
                 i18n="@@homeFinalCtaButton"
             >

@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild": "node scripts/copy-cloudflare-files.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dongua-website": "node dist/dongua-website/server/server.mjs"

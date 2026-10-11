@@ -65,15 +65,33 @@ body {
     align-items: center;
     gap: 0.5rem;
 
+    color: var(--color-primary);
+
     font-weight: 600;
     text-decoration: none;
 }
+.text-link:hover {
+    color: var(--color-secondary);
+}
 
+.text-link-on-dark {
+    color: var(--color-accent);
+}
+
+.text-link-on-dark:hover {
+    color: var(--color-background);
+}
 .text-link:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 4px;
 }
+.text-link span {
+    transition: transform 0.2s ease;
+}
 
+.text-link:hover span {
+    transform: translateX(0.25rem);
+}
 .button {
     display: inline-flex;
     align-items: center;

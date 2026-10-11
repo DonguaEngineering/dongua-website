@@ -1,0 +1,135 @@
+.hardware-design,
+.design-scope,
+.design-inputs {
+    padding-block: 5rem;
+}
+
+.hardware-design,
+.design-inputs {
+    background: var(--color-background);
+}
+
+.design-scope {
+    background: var(--color-surface);
+}
+
+.hardware-design-container,
+.design-scope-container,
+.design-inputs-container {
+    display: grid;
+    gap: 3rem;
+}
+
+.hardware-design-heading,
+.design-scope-heading,
+.design-inputs-heading {
+    max-width: 36rem;
+}
+
+.hardware-design-content {
+    max-width: 42rem;
+}
+
+.hardware-design-content p {
+    margin: 0;
+}
+
+.hardware-design-content p + p {
+    margin-top: 1.5rem;
+}
+
+.design-inputs-description {
+    margin: 1.5rem 0 0;
+}
+
+.technical-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    border-top: 1px solid rgba(21, 37, 30, 0.16);
+}
+
+.technical-list li {
+    position: relative;
+
+    padding: 1rem 0 1rem 1.5rem;
+
+    border-bottom: 1px solid rgba(21, 37, 30, 0.16);
+
+    color: var(--color-text);
+
+    line-height: 1.5;
+}
+
+.technical-list li::before {
+    content: "";
+
+    position: absolute;
+    top: 1.55rem;
+    left: 0;
+
+    width: 0.4rem;
+    height: 0.4rem;
+
+    background: var(--color-accent);
+}
+
+.services-cta {
+    padding-block: 5rem;
+
+    background: var(--color-secondary);
+}
+
+.services-cta-container {
+    display: grid;
+    gap: 2rem;
+
+    align-items: center;
+}
+
+.services-cta h2 {
+    max-width: 42rem;
+    margin: 0;
+
+    color: var(--color-background);
+
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+}
+
+.services-cta .button {
+    justify-self: start;
+}
+
+@media (min-width: 48rem) {
+    .hardware-design,
+    .design-scope,
+    .design-inputs,
+    .services-cta {
+        padding-block: 6rem;
+    }
+
+    .technical-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 2rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .hardware-design-container,
+    .design-scope-container,
+    .design-inputs-container {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 6rem;
+
+        align-items: start;
+    }
+
+    .services-cta-container {
+        grid-template-columns: 1fr auto;
+        gap: 4rem;
+    }
+}

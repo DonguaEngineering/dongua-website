@@ -30,6 +30,209 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="aboutIntroEyebrow" datatype="html">
+        <source> About Dongua Engineering </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutIntroTitle" datatype="html">
+        <source> Specialist electrical engineering for industrial automation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutIntroDescription" datatype="html">
+        <source> Dongua Engineering Solutions provides electrical design expertise for industrial automation projects, with particular experience in control panels, MCCs and the UK water industry. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutOverviewEyebrow" datatype="html">
+        <source> Who We Are </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutOverviewTitle" datatype="html">
+        <source> Practical engineering built around real project delivery </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutOverviewParagraphOne" datatype="html">
+        <source> Dongua Engineering Solutions S.L. is a specialist engineering company focused on electrical design for industrial automation. Our work is centred on producing clear, buildable and maintainable electrical designs that integrate effectively within wider engineering projects. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutOverviewParagraphTwo" datatype="html">
+        <source> The company brings experience from electrical engineering projects in the UK water and wastewater sector, including control panel and MCC design, motor control, electrical schematics and supporting technical documentation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">53,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutOverviewParagraphThree" datatype="html">
+        <source> We work with system integrators, panel builders and engineering contractors that require specialist electrical engineering support or additional design capacity for their projects. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceEyebrow" datatype="html">
+        <source> Engineering Experience </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">74,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceTitle" datatype="html">
+        <source> Electrical design experience shaped by industrial projects </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">81,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceDescription" datatype="html">
+        <source> Experience developed through electrical engineering work for industrial automation projects, particularly within the UK water and wastewater sector. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">88,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceWaterTitle" datatype="html">
+        <source> Water &amp; Wastewater </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceWaterDescription" datatype="html">
+        <source> Electrical design experience supporting automation projects across the UK water industry. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperiencePanelsTitle" datatype="html">
+        <source> Control Panels &amp; MCCs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperiencePanelsDescription" datatype="html">
+        <source> Design experience covering control panels, motor control centres, motor starters, variable speed drives and associated control systems. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">123,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceDocumentationTitle" datatype="html">
+        <source> Electrical Documentation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">137,138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutExperienceDocumentationDescription" datatype="html">
+        <source> Structured electrical schematics, panel layouts and engineering documentation developed for manufacture, testing and project delivery. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutApproachEyebrow" datatype="html">
+        <source> Professional Approach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">157,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutApproachTitle" datatype="html">
+        <source> Engineering focused on practical project delivery </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutApproachDescription" datatype="html">
+        <source> Our approach is based on clear communication, structured engineering documentation and electrical designs developed with manufacture, testing, installation and maintainability in mind. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">171,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutApproachSecondaryDescription" datatype="html">
+        <source> Dongua Engineering works as an extension of the wider project team, adapting to client standards, engineering requirements and established project workflows. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">181,184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialQualificationTitle" datatype="html">
+        <source> Engineering Background </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">194,197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialQualificationDescription" datatype="html">
+        <source> Electrical Engineering background supported by formal university education and practical industrial project experience. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">198,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialToolsTitle" datatype="html">
+        <source> Engineering Tools </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">210,211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialToolsDescription" datatype="html">
+        <source> Electrical design and documentation developed using professional engineering tools including Bentley Promis.e and AutoCAD. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">214,216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialInsuranceTitle" datatype="html">
+        <source> Professional Insurance </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">226,229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialInsuranceDescription" datatype="html">
+        <source> Professional Indemnity and Public Liability insurance maintained for engineering activities. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">230,232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialDeliveryTitle" datatype="html">
+        <source> Flexible Project Support </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">241,244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutCredentialDeliveryDescription" datatype="html">
+        <source> Remote engineering support structured to integrate with system integrators, panel builders and engineering contractors. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">245,247</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="homeHeroEyebrow" datatype="html">
         <source> Electrical Engineering Solutions </source>
         <context-group purpose="location">
@@ -76,266 +279,469 @@
         <source> Electrical engineering for industrial automation </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">42,43</context>
+          <context context-type="linenumber">44,45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServicesDescription" datatype="html">
         <source> Practical electrical design support focused on reliable, buildable and maintainable industrial systems. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">49,51</context>
+          <context context-type="linenumber">51,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServiceElectricalDesignTitle" datatype="html">
         <source> Electrical Design &amp; Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">64,67</context>
+          <context context-type="linenumber">66,69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServiceElectricalDesignDescription" datatype="html">
         <source> Electrical schematics, circuit design and detailed engineering documentation for industrial automation projects. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">68,70</context>
+          <context context-type="linenumber">70,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServicePanelsTitle" datatype="html">
         <source> Control Panel &amp; MCC Design </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">83,84</context>
+          <context context-type="linenumber">85,86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServicePanelsDescription" datatype="html">
         <source> Design of control panels, motor control centres and associated power and control systems. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">87,89</context>
+          <context context-type="linenumber">89,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServiceDocumentationTitle" datatype="html">
         <source> Electrical Documentation </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">101,104</context>
+          <context context-type="linenumber">103,106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServiceDocumentationDescription" datatype="html">
         <source> Clear and structured electrical drawings and technical documentation prepared for manufacture, installation and commissioning. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">105,107</context>
+          <context context-type="linenumber">107,109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeServicesCta" datatype="html">
         <source> Explore our services <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">117,120</context>
+          <context context-type="linenumber">119,122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterEyebrow" datatype="html">
         <source> Water &amp; Wastewater </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">126,127</context>
+          <context context-type="linenumber">128,129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterTitle" datatype="html">
         <source> Electrical design experience for the UK water industry </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">130,131</context>
+          <context context-type="linenumber">134,135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterDescription" datatype="html">
         <source> Experience supporting electrical design for water and wastewater automation projects, with a focus on control panels, MCCs, motor control and structured engineering documentation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">134,137</context>
+          <context context-type="linenumber">138,141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterSecondaryDescription" datatype="html">
         <source> Engineering support developed to integrate with wider project delivery, from design requirements through manufacture, testing and commissioning. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">141,143</context>
+          <context context-type="linenumber">145,147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterCta" datatype="html">
-        <source> Explore industries <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <source> Discuss your project <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">151,154</context>
+          <context context-type="linenumber">155,158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelDesignTitle" datatype="html">
         <source> Electrical Design </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">164,165</context>
+          <context context-type="linenumber">168,169</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelDesignDescription" datatype="html">
         <source> Schematics and detailed electrical engineering for industrial control systems. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">168,169</context>
+          <context context-type="linenumber">172,173</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelMccTitle" datatype="html">
         <source> Control Panels &amp; MCCs </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">181,182</context>
+          <context context-type="linenumber">185,186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelMccDescription" datatype="html">
         <source> Electrical design supporting motor control and automation applications. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">185,186</context>
+          <context context-type="linenumber">189,190</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelDeliveryTitle" datatype="html">
         <source> Project Delivery </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">198,199</context>
+          <context context-type="linenumber">202,203</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeWaterPanelDeliveryDescription" datatype="html">
         <source> Documentation supporting manufacture, testing, installation and commissioning. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">202,204</context>
+          <context context-type="linenumber">206,208</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteEyebrow" datatype="html">
         <source> Remote Engineering Support </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">217,218</context>
+          <context context-type="linenumber">221,222</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteTitle" datatype="html">
         <source> Specialist electrical engineering support that integrates with your team </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">221,222</context>
+          <context context-type="linenumber">227,228</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteDescription" datatype="html">
         <source> Flexible electrical design support for system integrators, panel builders and engineering contractors requiring additional engineering capacity for industrial automation projects. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">228,230</context>
+          <context context-type="linenumber">234,236</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteAudienceIntegrators" datatype="html">
         <source> System Integrators </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">235,237</context>
+          <context context-type="linenumber">241,243</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteAudiencePanelBuilders" datatype="html">
         <source> Panel Builders </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">239,242</context>
+          <context context-type="linenumber">245,248</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteAudienceContractors" datatype="html">
         <source> Engineering Contractors </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">243,245</context>
+          <context context-type="linenumber">249,251</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteCta" datatype="html">
         <source> Discuss your project <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">252,255</context>
+          <context context-type="linenumber">258,261</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteProcessLabel" datatype="html">
         <source> Engineering workflow </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">262,265</context>
+          <context context-type="linenumber">268,271</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteRequirementsTitle" datatype="html">
         <source> Project Requirements </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">273,274</context>
+          <context context-type="linenumber">279,280</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteRequirementsDescription" datatype="html">
         <source> Client standards, specifications and engineering requirements define the design basis. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">277,278</context>
+          <context context-type="linenumber">283,284</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteEngineeringTitle" datatype="html">
         <source> Electrical Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">290,291</context>
+          <context context-type="linenumber">296,297</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteEngineeringDescription" datatype="html">
         <source> Electrical design developed as part of the wider project engineering workflow. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">294,295</context>
+          <context context-type="linenumber">300,301</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteDeliverablesTitle" datatype="html">
         <source> Engineering Deliverables </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">307,308</context>
+          <context context-type="linenumber">313,314</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeRemoteDeliverablesDescription" datatype="html">
         <source> Structured drawings and documentation ready to support manufacture, testing and project delivery. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">311,312</context>
+          <context context-type="linenumber">317,318</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeFinalCtaEyebrow" datatype="html">
         <source> Let&apos;s Work Together </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">327,330</context>
+          <context context-type="linenumber">333,336</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeFinalCtaTitle" datatype="html">
         <source> Need additional electrical engineering capacity? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">331,332</context>
+          <context context-type="linenumber">337,338</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeFinalCtaDescription" datatype="html">
         <source> Get in touch to discuss how Dongua Engineering can support your industrial automation project. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">338,340</context>
+          <context context-type="linenumber">344,346</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeFinalCtaButton" datatype="html">
         <source> Discuss your project <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
-          <context context-type="linenumber">347,350</context>
+          <context context-type="linenumber">353,356</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesIntroEyebrow" datatype="html">
+        <source> Our Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesIntroTitle" datatype="html">
+        <source> Specialist electrical hardware design for industrial automation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesIntroDescription" datatype="html">
+        <source> Dongua Engineering provides specialist electrical hardware design for industrial automation projects, supporting system integrators, panel builders and engineering contractors. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesHardwareEyebrow" datatype="html">
+        <source> Electrical Hardware Design </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesHardwareTitle" datatype="html">
+        <source> Control panels, MCCs and low voltage distribution </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesHardwareDescription" datatype="html">
+        <source> Electrical designs are developed in accordance with client specifications, engineering standards and project requirements, with a focus on producing clear and practical documentation for manufacture and project delivery. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesHardwareSecondaryDescription" datatype="html">
+        <source> Design work includes Local Control Panels (LCPs), Motor Control Centres (MCCs) and Low Voltage Distribution Boards (LVDBs), together with the associated electrical schematics and general arrangement drawings. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeEyebrow" datatype="html">
+        <source> Design Scope </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">74,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeTitle" datatype="html">
+        <source> Electrical design developed around the complete panel system </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeLcp" datatype="html">
+        <source> Local Control Panels (LCPs) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeMcc" datatype="html">
+        <source> Motor Control Centres (MCCs) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeLvdb" datatype="html">
+        <source> Low Voltage Distribution Boards (LVDBs) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeSchematics" datatype="html">
+        <source> Electrical schematics </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">99,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeArrangement" datatype="html">
+        <source> General arrangement drawings </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesScopeMotorControl" datatype="html">
+        <source> Motor control arrangements </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">107,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputsEyebrow" datatype="html">
+        <source> Engineering Inputs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">120,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputsTitle" datatype="html">
+        <source> Design based on project specifications and engineering data </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">127,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputsDescription" datatype="html">
+        <source> Electrical designs are developed from the relevant project information and coordinated with the wider engineering documentation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">134,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputSpecifications" datatype="html">
+        <source> Client specifications and engineering standards </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">142,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputSld" datatype="html">
+        <source> Single Line Diagrams (SLDs) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">146,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputPid" datatype="html">
+        <source> Piping and Instrumentation Diagrams (P&amp;IDs) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">150,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputInstrumentation" datatype="html">
+        <source> Instrumentation schedules </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">154,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputControlPhilosophy" datatype="html">
+        <source> Control philosophy </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">158,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputUrs" datatype="html">
+        <source> User Requirements Specifications (URS) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">162,163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputLoadSchedule" datatype="html">
+        <source> Load schedules </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">166,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesInputPanelDatasheets" datatype="html">
+        <source> Panel datasheets </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">170,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesCtaEyebrow" datatype="html">
+        <source> Engineering Support </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">183,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesCtaTitle" datatype="html">
+        <source> Need electrical design support for your next project? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">187,188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesCtaButton" datatype="html">
+        <source> Discuss your project </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/services/services.html</context>
+          <context context-type="linenumber">196,198</context>
         </context-group>
       </trans-unit>
       <trans-unit id="footerDescription" datatype="html">
@@ -401,39 +807,53 @@
           <context context-type="linenumber">62,64</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="headerMenuToggleLabel" datatype="html">
+        <source>Toggle navigation menu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="headerMainNavigationLabel" datatype="html">
+        <source>Main navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="navHome" datatype="html">
         <source> Home </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navAbout" datatype="html">
         <source> About </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navServices" datatype="html">
         <source> Services </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navIndustries" datatype="html">
         <source> Industries </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.html</context>
-          <context context-type="linenumber">51,52</context>
+          <context context-type="linenumber">85,86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navContact" datatype="html">
         <source> Contact </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="languageSelectorLabel" datatype="html">

@@ -436,6 +436,236 @@
           <context context-type="linenumber">62,64</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="aboutIntroEyebrow" datatype="html">
+        <source> Sobre Dongua Engineering </source>
+      </trans-unit>
+
+      <trans-unit id="aboutIntroTitle" datatype="html">
+        <source> Ingeniería eléctrica especializada para automatización industrial </source>
+      </trans-unit>
+
+      <trans-unit id="aboutIntroDescription" datatype="html">
+        <source> Dongua Engineering Solutions aporta experiencia especializada en diseño eléctrico para proyectos de automatización industrial, con especial experiencia en cuadros de control, MCC y el sector del agua del Reino Unido. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutOverviewEyebrow" datatype="html">
+        <source> Quiénes somos </source>
+      </trans-unit>
+
+      <trans-unit id="aboutOverviewTitle" datatype="html">
+        <source> Ingeniería práctica orientada al desarrollo real de proyectos </source>
+      </trans-unit>
+
+      <trans-unit id="aboutOverviewParagraphOne" datatype="html">
+        <source> Dongua Engineering Solutions S.L. es una empresa especializada en ingeniería centrada en el diseño eléctrico para automatización industrial. Nuestro trabajo se basa en desarrollar diseños eléctricos claros, fabricables y mantenibles que se integren eficazmente en proyectos de ingeniería más amplios. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutOverviewParagraphTwo" datatype="html">
+        <source> La empresa aporta experiencia adquirida en proyectos de ingeniería eléctrica dentro del sector del agua y las aguas residuales del Reino Unido, incluyendo diseño de cuadros de control y MCC, control de motores, esquemas eléctricos y documentación técnica asociada. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutOverviewParagraphThree" datatype="html">
+        <source> Trabajamos con integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería que requieren soporte especializado de ingeniería eléctrica o capacidad adicional de diseño para sus proyectos. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceEyebrow" datatype="html">
+        <source> Experiencia en ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceTitle" datatype="html">
+        <source> Experiencia en diseño eléctrico desarrollada a través de proyectos industriales </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceDescription" datatype="html">
+        <source> Experiencia desarrollada mediante trabajos de ingeniería eléctrica para proyectos de automatización industrial, especialmente dentro del sector del agua y las aguas residuales del Reino Unido. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceWaterTitle" datatype="html">
+        <source> Agua y aguas residuales </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceWaterDescription" datatype="html">
+        <source> Experiencia en diseño eléctrico para proyectos de automatización dentro del sector del agua del Reino Unido. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperiencePanelsTitle" datatype="html">
+        <source> Cuadros de control y MCC </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperiencePanelsDescription" datatype="html">
+        <source> Experiencia en diseño de cuadros de control, centros de control de motores, arrancadores de motores, variadores de velocidad y sistemas de control asociados. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceDocumentationTitle" datatype="html">
+        <source> Documentación eléctrica </source>
+      </trans-unit>
+
+      <trans-unit id="aboutExperienceDocumentationDescription" datatype="html">
+        <source> Esquemas eléctricos, layouts de cuadros y documentación de ingeniería estructurada para fabricación, pruebas y desarrollo del proyecto. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutApproachEyebrow" datatype="html">
+        <source> Enfoque profesional </source>
+      </trans-unit>
+
+      <trans-unit id="aboutApproachTitle" datatype="html">
+        <source> Ingeniería orientada al desarrollo práctico de proyectos </source>
+      </trans-unit>
+
+      <trans-unit id="aboutApproachDescription" datatype="html">
+        <source> Nuestro enfoque se basa en una comunicación clara, documentación de ingeniería estructurada y diseños eléctricos desarrollados teniendo en cuenta la fabricación, las pruebas, la instalación y el mantenimiento. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutApproachSecondaryDescription" datatype="html">
+        <source> Dongua Engineering trabaja como una extensión del equipo global del proyecto, adaptándose a los estándares del cliente, los requisitos de ingeniería y los procesos establecidos del proyecto. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialQualificationTitle" datatype="html">
+        <source> Formación en ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialQualificationDescription" datatype="html">
+        <source> Formación en Ingeniería Eléctrica respaldada por estudios universitarios y experiencia práctica en proyectos industriales. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialToolsTitle" datatype="html">
+        <source> Herramientas de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialToolsDescription" datatype="html">
+        <source> Diseño eléctrico y documentación desarrollados mediante herramientas profesionales de ingeniería, incluyendo Bentley Promis.e y AutoCAD. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialInsuranceTitle" datatype="html">
+        <source> Seguros profesionales </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialInsuranceDescription" datatype="html">
+        <source> Seguros de Responsabilidad Civil Profesional (Professional Indemnity) y Responsabilidad Civil (Public Liability) vigentes para las actividades de ingeniería. </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialDeliveryTitle" datatype="html">
+        <source> Soporte flexible para proyectos </source>
+      </trans-unit>
+
+      <trans-unit id="aboutCredentialDeliveryDescription" datatype="html">
+        <source> Soporte remoto de ingeniería estructurado para integrarse con integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería. </source>
+      </trans-unit>
+      <trans-unit id="servicesIntroEyebrow" datatype="html">
+        <source> Nuestros servicios </source>
+      </trans-unit>
+
+      <trans-unit id="servicesIntroTitle" datatype="html">
+        <source> Diseño especializado de hardware eléctrico para automatización industrial </source>
+      </trans-unit>
+
+      <trans-unit id="servicesIntroDescription" datatype="html">
+        <source> Dongua Engineering ofrece servicios especializados de diseño de hardware eléctrico para proyectos de automatización industrial, dando soporte a integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería. </source>
+      </trans-unit>
+
+      <trans-unit id="servicesHardwareEyebrow" datatype="html">
+        <source> Diseño de hardware eléctrico </source>
+      </trans-unit>
+
+      <trans-unit id="servicesHardwareTitle" datatype="html">
+        <source> Cuadros de control, MCC y distribución de baja tensión </source>
+      </trans-unit>
+
+      <trans-unit id="servicesHardwareDescription" datatype="html">
+        <source> Los diseños eléctricos se desarrollan de acuerdo con las especificaciones del cliente, las normas de ingeniería y los requisitos del proyecto, con el objetivo de producir documentación clara y práctica para la fabricación y el desarrollo del proyecto. </source>
+      </trans-unit>
+
+      <trans-unit id="servicesHardwareSecondaryDescription" datatype="html">
+        <source> El trabajo de diseño incluye Cuadros de Control Local (LCP), Centros de Control de Motores (MCC) y Cuadros de Distribución de Baja Tensión (LVDB), junto con los esquemas eléctricos y planos de disposición general asociados. </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeEyebrow" datatype="html">
+        <source> Alcance del diseño </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeTitle" datatype="html">
+        <source> Diseño eléctrico desarrollado considerando el sistema completo de cuadros </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeLcp" datatype="html">
+        <source> Cuadros de Control Local (LCP) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeMcc" datatype="html">
+        <source> Centros de Control de Motores (MCC) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeLvdb" datatype="html">
+        <source> Cuadros de Distribución de Baja Tensión (LVDB) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeSchematics" datatype="html">
+        <source> Esquemas eléctricos </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeArrangement" datatype="html">
+        <source> Planos de disposición general (GA) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesScopeMotorControl" datatype="html">
+        <source> Sistemas de control de motores </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputsEyebrow" datatype="html">
+        <source> Información de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputsTitle" datatype="html">
+        <source> Diseño basado en las especificaciones del proyecto y los datos de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputsDescription" datatype="html">
+        <source> Los diseños eléctricos se desarrollan a partir de la información relevante del proyecto y se coordinan con la documentación general de ingeniería. </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputSpecifications" datatype="html">
+        <source> Especificaciones del cliente y normas de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputSld" datatype="html">
+        <source> Diagramas unifilares (SLD) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputPid" datatype="html">
+        <source> Diagramas de tuberías e instrumentación (P&amp;ID) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputInstrumentation" datatype="html">
+        <source> Listados de instrumentación </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputControlPhilosophy" datatype="html">
+        <source> Filosofía de control </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputUrs" datatype="html">
+        <source> Especificaciones de Requisitos de Usuario (URS) </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputLoadSchedule" datatype="html">
+        <source> Listados de cargas </source>
+      </trans-unit>
+
+      <trans-unit id="servicesInputPanelDatasheets" datatype="html">
+        <source> Hojas de datos de cuadros </source>
+      </trans-unit>
+
+      <trans-unit id="servicesCtaEyebrow" datatype="html">
+        <source> Soporte de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="servicesCtaTitle" datatype="html">
+        <source> ¿Necesitas soporte de diseño eléctrico para tu próximo proyecto? </source>
+      </trans-unit>
+
+      <trans-unit id="servicesCtaButton" datatype="html">
+        <source> Hablemos de tu proyecto </source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

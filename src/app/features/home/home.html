@@ -1,1 +1,358 @@
-<p>home works!</p>
+<section class="hero">
+    <div class="hero-visual" aria-hidden="true">
+        <img 
+            src="images/home/hero-engineering.png"
+            alt=""
+        />
+    </div>
+    <div class="hero-container site-container">
+        <div class="hero-content">
+            <p class="hero-eyebrow section-eyebrow" i18n="@@homeHeroEyebrow">
+                Electrical Engineering Solutions
+            </p>
+            <h1 i18n="@@homeHeroTitle">
+                Electrical Engineering & Industrial Automation
+            </h1>
+        
+            <p class="hero-description" i18n="@@homeHeroSubtitle">
+                Specialist electrical design services for industrial automation and the UK water industry.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" [routerLink]="['/', routes.services]" i18n="@@homeHeroServicesCta">
+                    Our Services
+                </a>
+                <a class="button button-secondary" [routerLink]="['/', routes.contact]" i18n="@@homeHeroContactCta">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="core-services">
+    <div class="core-services-container site-container">
+        <header class="section-header">
+            <p
+                class="section-eyebrow"
+                i18n="@@homeServicesEyebrow"
+            >
+                Core Services
+            </p>
+
+            <h2 
+                class="section-title"
+                i18n="@@homeServicesTitle">
+                Electrical engineering for industrial automation
+            </h2>
+
+            <p
+                class="section-description section-copy"
+                i18n="@@homeServicesDescription"
+            >
+                Practical electrical design support focused on reliable,
+                buildable and maintainable industrial systems.
+            </p>
+        </header>
+
+        <div class="services-grid">
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    01
+                </span>
+
+                <h3 i18n="@@homeServiceElectricalDesignTitle">
+                    Electrical Design & Engineering
+                </h3>
+
+                <p i18n="@@homeServiceElectricalDesignDescription">
+                    Electrical schematics, circuit design and detailed
+                    engineering documentation for industrial automation
+                    projects.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    02
+                </span>
+
+                <h3 i18n="@@homeServicePanelsTitle">
+                    Control Panel & MCC Design
+                </h3>
+
+                <p i18n="@@homeServicePanelsDescription">
+                    Design of control panels, motor control centres and
+                    associated power and control systems.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span
+                    class="service-number"
+                    aria-hidden="true"
+                >
+                    03
+                </span>
+
+                <h3 i18n="@@homeServiceDocumentationTitle">
+                    Electrical Documentation
+                </h3>
+
+                <p i18n="@@homeServiceDocumentationDescription">
+                    Clear and structured electrical drawings and technical
+                    documentation prepared for manufacture, installation and
+                    commissioning.
+                </p>
+            </article>
+        </div>
+
+        <a
+            class="services-link text-link"
+            [routerLink]="['/', routes.services]"
+            i18n="@@homeServicesCta"
+        >
+            Explore our services
+            <span aria-hidden="true">→</span>
+        </a>
+    </div>
+</section>
+<section class="water-sector">
+    <div class="water-sector-container site-container">
+        <div class="water-sector-content">
+            <p class="section-eyebrow" i18n="@@homeWaterEyebrow">
+                Water & Wastewater
+            </p>
+
+            <h2 
+                class="section-title"
+                i18n="@@homeWaterTitle">
+                Electrical design experience for the UK water industry
+            </h2>
+
+            <p class="water-sector-description section-copy" i18n="@@homeWaterDescription">
+                Experience supporting electrical design for water and
+                wastewater automation projects, with a focus on control
+                panels, MCCs, motor control and structured engineering
+                documentation.
+            </p>
+
+            <p class="water-sector-description section-copy" i18n="@@homeWaterSecondaryDescription">
+                Engineering support developed to integrate with wider project
+                delivery, from design requirements through manufacture,
+                testing and commissioning.
+            </p>
+
+            <a
+            [routerLink]="['/', routes.contact]"
+            class="text-link"
+            i18n="@@homeWaterCta"
+        >
+            Discuss your project
+            <span aria-hidden="true">→</span>
+        </a>
+        </div>
+
+        <div class="water-sector-panel">
+            <div class="water-sector-panel-item">
+                <span class="water-sector-panel-number" aria-hidden="true">
+                    01
+                </span>
+
+                <div>
+                    <h3 i18n="@@homeWaterPanelDesignTitle">
+                        Electrical Design
+                    </h3>
+
+                    <p i18n="@@homeWaterPanelDesignDescription">
+                        Schematics and detailed electrical engineering for
+                        industrial control systems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="water-sector-panel-item">
+                <span class="water-sector-panel-number" aria-hidden="true">
+                    02
+                </span>
+
+                <div>
+                    <h3 i18n="@@homeWaterPanelMccTitle">
+                        Control Panels & MCCs
+                    </h3>
+
+                    <p i18n="@@homeWaterPanelMccDescription">
+                        Electrical design supporting motor control and
+                        automation applications.
+                    </p>
+                </div>
+            </div>
+
+            <div class="water-sector-panel-item">
+                <span class="water-sector-panel-number" aria-hidden="true">
+                    03
+                </span>
+
+                <div>
+                    <h3 i18n="@@homeWaterPanelDeliveryTitle">
+                        Project Delivery
+                    </h3>
+
+                    <p i18n="@@homeWaterPanelDeliveryDescription">
+                        Documentation supporting manufacture, testing,
+                        installation and commissioning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="remote-support">
+    <div class="remote-support-container site-container">
+        <div class="remote-support-content">
+            <p
+                class="hero-eyebrow section-eyebrow"
+                i18n="@@homeRemoteEyebrow"
+            >
+                Remote Engineering Support
+            </p>
+
+            <h2 
+                class="section-title"
+                i18n="@@homeRemoteTitle">
+                Specialist electrical engineering support that integrates with your team
+            </h2>
+
+            <p
+                class="remote-support-description section-copy"
+                i18n="@@homeRemoteDescription"
+            >
+                Flexible electrical design support for system integrators,
+                panel builders and engineering contractors requiring additional
+                engineering capacity for industrial automation projects.
+            </p>
+
+            <div class="remote-support-audiences">
+                <span i18n="@@homeRemoteAudienceIntegrators">
+                    System Integrators
+                </span>
+
+                <span i18n="@@homeRemoteAudiencePanelBuilders">
+                    Panel Builders
+                </span>
+
+                <span i18n="@@homeRemoteAudienceContractors">
+                    Engineering Contractors
+                </span>
+            </div>
+
+            <a
+                class="remote-support-link text-link"
+                [routerLink]="['/', routes.contact]"
+                i18n="@@homeRemoteCta"
+            >
+                Discuss your project
+                <span aria-hidden="true">→</span>
+            </a>
+        </div>
+
+        <div class="remote-support-process">
+            <p
+                class="remote-support-process-label"
+                i18n="@@homeRemoteProcessLabel"
+            >
+                Engineering workflow
+            </p>
+
+            <ol class="support-flow">
+                <li class="support-flow-item">
+                    <span class="support-flow-number" aria-hidden="true">
+                        01
+                    </span>
+
+                    <div>
+                        <h3 i18n="@@homeRemoteRequirementsTitle">
+                            Project Requirements
+                        </h3>
+
+                        <p i18n="@@homeRemoteRequirementsDescription">
+                            Client standards, specifications and engineering
+                            requirements define the design basis.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="support-flow-item">
+                    <span class="support-flow-number" aria-hidden="true">
+                        02
+                    </span>
+
+                    <div>
+                        <h3 i18n="@@homeRemoteEngineeringTitle">
+                            Electrical Engineering
+                        </h3>
+
+                        <p i18n="@@homeRemoteEngineeringDescription">
+                            Electrical design developed as part of the wider
+                            project engineering workflow.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="support-flow-item">
+                    <span class="support-flow-number" aria-hidden="true">
+                        03
+                    </span>
+
+                    <div>
+                        <h3 i18n="@@homeRemoteDeliverablesTitle">
+                            Engineering Deliverables
+                        </h3>
+
+                        <p i18n="@@homeRemoteDeliverablesDescription">
+                            Structured drawings and documentation ready to
+                            support manufacture, testing and project delivery.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="final-cta">
+    <div class="final-cta-container">
+        <div class="final-cta-content">
+            <p
+                class="final-cta-eyebrow section-eyebrow"
+                i18n="@@homeFinalCtaEyebrow"
+            >
+                Let's Work Together
+            </p>
+
+            <h2 i18n="@@homeFinalCtaTitle">
+                Need additional electrical engineering capacity?
+            </h2>
+
+            <p
+                class="final-cta-description section-copy"
+                i18n="@@homeFinalCtaDescription"
+            >
+                Get in touch to discuss how Dongua Engineering can support
+                your industrial automation project.
+            </p>
+
+            <a
+                class="final-cta-button button"
+                [routerLink]="['/', routes.contact]"
+                i18n="@@homeFinalCtaButton"
+            >
+                Discuss your project
+                <span aria-hidden="true">→</span>
+            </a>
+        </div>
+    </div>
+</section> 

@@ -1,0 +1,531 @@
+.hero {
+    position: relative;
+    isolation: isolate;
+
+    min-height: 36rem;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    background: var(--color-background);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+
+    padding-block: 3rem;
+}
+
+.hero-content {
+    max-width: 30rem;
+}
+
+.hero h1 {
+    margin: 0;
+
+    color: var(--color-primary);
+
+    font-size: clamp(2.25rem, 9vw, 4.5rem);
+    line-height: 1.05;
+}
+
+.hero-description {
+    max-width: 34rem;
+    margin: 1.5rem 0 0;
+
+    color: var(--color-text);
+
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.hero-actions,
+.remote-support-audiences {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-actions {
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+.button,
+.final-cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 3rem;
+    padding-inline: 1.5rem;
+
+    border-radius: 0.25rem;
+
+    text-decoration: none;
+}
+
+.hero-visual {
+    position: absolute;
+    inset: 0;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
+.hero-visual img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 72% center;
+
+    opacity: 0.72;
+}
+
+.hero-visual::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        90deg,
+        rgba(245, 245, 240, 0.98) 0%,
+        rgba(245, 245, 240, 0.94) 42%,
+        rgba(245, 245, 240, 0.82) 68%,
+        rgba(245, 245, 240, 0.58) 100%
+    );
+}
+
+.core-services {
+    padding-block: 5rem;
+    background: var(--color-surface);
+}
+
+.section-header {
+    max-width: 44rem;
+}
+
+.section-description {
+    max-width: 38rem;
+    margin: 1.25rem 0 0;
+    color: var(--color-text);
+}
+
+.services-grid {
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.service-card {
+    position: relative;
+    width: 100%;
+    max-width: 22rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(21, 37, 30, 0.14);
+    border-radius: 0.25rem;
+    background: var(--color-background);
+    transition:
+        transform 180ms ease,
+        border-color 180ms ease;
+}
+
+.service-card:hover {
+    transform: translateY(-0.25rem);
+    border-color: var(--color-accent);
+}
+
+.service-number,
+.water-sector-panel-number,
+.support-flow-number {
+    color: var(--color-accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.service-number {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.service-card h3 {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 1.35rem;
+    line-height: 1.3;
+}
+
+.service-card p {
+    margin: 1rem 0 0;
+    color: var(--color-text);
+    line-height: 1.7;
+}
+
+.services-link {
+    margin-top: 2.5rem;
+    color: var(--color-primary);
+}
+
+.water-sector-link,
+.remote-support-link {
+    margin-top: 2rem;
+}
+
+.services-link:hover,
+.remote-support-link:hover {
+    color: var(--color-secondary);
+}
+
+.water-sector {
+    padding-block: 5rem;
+    background: var(--color-primary);
+    color: var(--color-background);
+}
+
+.water-sector-container,
+.remote-support-container {
+    display: grid;
+}
+
+.water-sector-container {
+    gap: 3rem;
+}
+
+.water-sector-content {
+    max-width: 40rem;
+}
+
+.water-sector h2 {
+    color: var(--color-background);
+}
+
+.water-sector-description {
+    margin: 1.5rem 0 0;
+    color: rgba(245, 245, 240, 0.82);
+}
+
+.water-sector-link {
+    color: var(--color-accent);
+}
+
+.water-sector-link:hover {
+    color: var(--color-background);
+}
+
+.water-sector-panel {
+    border-top: 1px solid rgba(245, 245, 240, 0.2);
+}
+
+.water-sector-panel-item,
+.support-flow-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.water-sector-panel-item {
+    gap: 1rem;
+    padding-block: 1.5rem;
+    border-bottom: 1px solid rgba(245, 245, 240, 0.2);
+}
+
+.water-sector-panel-number {
+    padding-top: 0.25rem;
+}
+
+.water-sector-panel h3,
+.support-flow-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.water-sector-panel h3 {
+    color: var(--color-background);
+}
+
+.water-sector-panel p,
+.support-flow-item p {
+    margin: 0.75rem 0 0;
+    line-height: 1.6;
+}
+
+.water-sector-panel p {
+    color: rgba(245, 245, 240, 0.72);
+}
+
+.remote-support {
+    padding-block: 5rem;
+    background: var(--color-background);
+}
+
+.remote-support-container {
+    gap: 3rem;
+}
+
+.remote-support-content {
+    max-width: 42rem;
+}
+
+.remote-support-description {
+    margin: 1.5rem 0 0;
+    color: var(--color-text);
+}
+
+.remote-support-audiences {
+    gap: 0.75rem;
+    margin-top: 2rem;
+}
+
+.remote-support-audiences span {
+    padding: 0.6rem 0.9rem;
+
+    border: 1px solid rgba(21, 37, 30, 0.18);
+    border-radius: 999px;
+
+    background: var(--color-surface);
+    color: var(--color-primary);
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.remote-support-link {
+    color: var(--color-primary);
+}
+
+.remote-support-process {
+    width: 100%;
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 1.5rem;
+    border: 1px solid rgba(21, 37, 30, 0.14);
+    background: var(--color-surface);
+}
+
+.remote-support-process-label {
+    margin: 0 0 2rem;
+    color: var(--color-accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.support-flow {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.support-flow-item {
+    position: relative;
+    gap: 1.25rem;
+    padding-bottom: 2rem;
+}
+
+.support-flow-item:not(:last-child) {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(21, 37, 30, 0.12);
+}
+
+.support-flow-number {
+    padding-top: 0.2rem;
+}
+
+.support-flow-item h3 {
+    color: var(--color-primary);
+}
+
+.support-flow-item p {
+    color: var(--color-text);
+}
+
+.final-cta {
+    padding: 1rem;
+    background: var(--color-background);
+}
+
+.final-cta-container {
+    width: min(1200px, 100%);
+    margin-inline: auto;
+    padding: 3.5rem 1.5rem;
+    background: var(--color-primary);
+}
+
+.final-cta-content {
+    max-width: 44rem;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.final-cta h2 {
+    margin: 0;
+    color: var(--color-background);
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+}
+
+.final-cta-description {
+    max-width: 36rem;
+    margin: 1.5rem auto 0;
+    color: rgba(245, 245, 240, 0.82);
+}
+
+.final-cta-button {
+    gap: 0.6rem;
+    margin-top: 2rem;
+    background: var(--color-accent);
+    color: var(--color-primary);
+    font-weight: 700;
+    transition:
+        background-color 150ms ease,
+        transform 150ms ease;
+}
+
+.final-cta-button:hover {
+    transform: translateY(-0.125rem);
+    background: var(--color-background);
+}
+
+.final-cta-button:focus-visible {
+    outline: 2px solid var(--color-background);
+    outline-offset: 4px;
+}
+
+@media (min-width: 48rem) {
+    .hero {
+        min-height: 40rem;
+    }
+
+    .hero-container {
+        padding-block: 4.5rem;
+    }
+
+    .hero-content {
+        max-width: 36rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.5rem, 6vw, 4.5rem);
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .hero-visual img {
+        object-position: 76% center;
+
+        opacity: 0.76;
+    }
+
+    .core-services,
+    .water-sector,
+    .remote-support {
+        padding-block: 6rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+    .service-card{
+        max-width: none;
+        padding: 2rem;
+    }
+    .service-card:last-child{
+        grid-column: 1 / -1;
+    }
+    .remote-support-process {
+        padding: 2.5rem;
+    }
+    .final-cta {
+        padding: 2rem 3rem;
+    }
+    .final-cta-container {
+        padding: 5rem 3rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .hero {
+        min-height: 44rem;
+    }
+
+    .hero-container {
+        padding-block: 6rem;
+    }
+
+    .hero-content {
+        max-width: 40rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.5rem, 5vw, 4.5rem);
+    }
+
+    .hero-visual {
+        left: 10%;
+        right: -6%;
+    }
+
+    .hero-visual img {
+        object-position: 82% center;
+
+        opacity: 0.82;
+    }
+
+    .hero-visual::after {
+        background: linear-gradient(
+            90deg,
+            rgba(245, 245, 240, 0.98) 0%,
+            rgba(245, 245, 240, 0.94) 30%,
+            rgba(245, 245, 240, 0.76) 46%,
+            rgba(245, 245, 240, 0.32) 64%,
+            rgba(245, 245, 240, 0.06) 100%
+        );
+    }
+    .services-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .service-card:last-child{
+        grid-column: auto;
+    }
+    .water-sector-container,
+    .remote-support-container {
+        align-items: center;
+    }
+    .water-sector-container {
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 6rem;
+    }
+    .remote-support-container {
+        grid-template-columns: 1.15fr 0.95fr;
+        gap: 5rem;
+    }
+    .remote-support-audiences {
+        flex-wrap: nowrap;
+        gap: 0.6rem;
+    }
+    .remote-support-audiences span {
+        padding-inline: 0.75rem;
+
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+    .remote-support-process{
+        max-width: none;
+        margin-inline: 0;
+    }
+}

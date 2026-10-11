@@ -1,0 +1,125 @@
+.contact {
+    padding-block: 5rem;
+
+    background: var(--color-background);
+}
+
+.contact-container {
+    display: grid;
+    gap: 3rem;
+}
+
+.contact-content {
+    max-width: 40rem;
+}
+
+.contact-description {
+    margin: 1.5rem 0 0;
+
+    color: var(--color-text);
+}
+
+.contact-project-info {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+
+    border-top: 1px solid rgba(21, 37, 30, 0.16);
+}
+
+.contact-project-info p {
+    margin: 0;
+
+    color: var(--color-text);
+
+    line-height: 1.7;
+}
+
+.contact-card {
+    padding: 2rem;
+
+    background: var(--color-primary);
+}
+
+.contact-card-eyebrow {
+    margin: 0 0 1rem;
+
+    color: var(--color-accent);
+
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.contact-card h2 {
+    margin: 0;
+
+    color: var(--color-background);
+
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    line-height: 1.1;
+}
+
+.contact-card-description {
+    max-width: 32rem;
+    margin: 1.5rem 0 0;
+
+    color: rgba(245, 245, 240, 0.78);
+
+    line-height: 1.7;
+}
+
+.contact-email {
+    display: block;
+
+    margin-top: 2.5rem;
+
+    color: var(--color-background);
+
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+
+    overflow-wrap: anywhere;
+}
+
+.contact-email:hover {
+    color: var(--color-accent);
+}
+
+.contact-email:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+.contact-card .button {
+    margin-top: 2rem;
+}
+
+@media (min-width: 48rem) {
+    .contact {
+        padding-block: 6rem;
+    }
+
+    .contact-card {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .contact-container {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 6rem;
+
+        align-items: stretch;
+    }
+
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        min-height: 30rem;
+    }
+}

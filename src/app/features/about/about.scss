@@ -1,0 +1,202 @@
+.about-overview {
+    padding-block: 5rem;
+
+    background: var(--color-background);
+}
+
+.about-overview-container {
+    display: grid;
+    gap: 3rem;
+}
+
+.about-overview-heading {
+    max-width: 34rem;
+}
+
+.about-overview-content {
+    max-width: 40rem;
+}
+
+.about-overview-content p {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.about-overview-content p + p {
+    margin-top: 1.5rem;
+}
+
+.engineering-experience {
+    padding-block: 5rem;
+
+    background: var(--color-surface);
+}
+
+.engineering-experience-container {
+    display: grid;
+    gap: 3rem;
+}
+
+.engineering-experience-content {
+    max-width: 38rem;
+}
+
+.engineering-experience-description {
+    margin: 1.5rem 0 0;
+
+    color: var(--color-text);
+}
+
+.engineering-experience-list {
+    border-top: 1px solid rgba(21, 37, 30, 0.16);
+}
+
+.experience-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+
+    padding-block: 1.75rem;
+
+    border-bottom: 1px solid rgba(21, 37, 30, 0.16);
+}
+
+.experience-number {
+    padding-top: 0.25rem;
+
+    color: var(--color-accent);
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.experience-item h3 {
+    margin: 0;
+
+    color: var(--color-primary);
+
+    font-size: 1.2rem;
+}
+
+.experience-item p {
+    margin: 0.75rem 0 0;
+
+    color: var(--color-text);
+
+    line-height: 1.7;
+}
+
+.professional-approach {
+    padding-block: 5rem;
+
+    background: var(--color-background);
+}
+
+.professional-approach-container {
+    display: grid;
+    gap: 3rem;
+}
+
+.professional-approach-content {
+    max-width: 40rem;
+}
+
+.professional-approach-description {
+    margin: 1.5rem 0 0;
+
+    color: var(--color-text);
+}
+
+.credentials-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.credential-card {
+    padding: 1.5rem;
+
+    border: 1px solid rgba(21, 37, 30, 0.14);
+
+    background: var(--color-surface);
+}
+
+.credential-number {
+    display: inline-block;
+
+    margin-bottom: 2rem;
+
+    color: var(--color-accent);
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.credential-card h3 {
+    margin: 0;
+
+    color: var(--color-primary);
+
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.credential-card p {
+    margin: 0.75rem 0 0;
+
+    color: var(--color-text);
+
+    line-height: 1.7;
+}
+
+@media (min-width: 48rem) {
+    .page-intro {
+        padding-block: 6rem;
+    }
+
+    .about-overview {
+        padding-block: 6rem;
+    }
+    .engineering-experience {
+        padding-block: 6rem;
+    }
+    .professional-approach {
+        padding-block: 6rem;
+    }
+    .credentials-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+    .credential-card {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .page-intro {
+        padding-block: 7rem;
+    }
+
+    .about-overview-container {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 6rem;
+
+        align-items: start;
+    }
+    .engineering-experience-container {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 6rem;
+
+        align-items: start;
+    }
+    .professional-approach-container {
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 6rem;
+        align-items: start;
+    }
+}

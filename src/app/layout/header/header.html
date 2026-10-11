@@ -1,0 +1,105 @@
+<header
+    class="site-header"
+    (keydown.escape)="closeMenu()"
+>
+    <div class="header-container">
+        <a
+            class="brand"
+            [routerLink]="['/']"
+            (click)="closeMenu()"
+        >
+            <img
+                src="brand/logo-on-dark-compact.svg"
+                alt="Dongua Engineering"
+                class="brand-logo"
+            />
+        </a>
+
+        <button
+            class="menu-toggle"
+            [class.open]="menuOpen"
+            type="button"
+            aria-label="Toggle navigation menu"
+            i18n-aria-label="@@headerMenuToggleLabel"
+            aria-controls="header-navigation"
+            [attr.aria-expanded]="menuOpen"
+            (click)="toggleMenu()"
+        >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
+
+        <div
+            id="header-navigation"
+            class="header-actions"
+            [class.open]="menuOpen"
+        >
+            <nav
+                class="main-navigation"
+                aria-label="Main navigation"
+                i18n-aria-label="@@headerMainNavigationLabel"
+            >
+                <ul class="nav-list">
+                    <li>
+                        <a
+                            [routerLink]="['/']"
+                            routerLinkActive="active"
+                            [routerLinkActiveOptions]="{ exact: true }"
+                            (click)="closeMenu()"
+                            i18n="@@navHome"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            [routerLink]="['/', routes.about]"
+                            routerLinkActive="active"
+                            (click)="closeMenu()"
+                            i18n="@@navAbout"
+                        >
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            [routerLink]="['/', routes.services]"
+                            routerLinkActive="active"
+                            (click)="closeMenu()"
+                            i18n="@@navServices"
+                        >
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            [routerLink]="['/', routes.industries]"
+                            routerLinkActive="active"
+                            (click)="closeMenu()"
+                            i18n="@@navIndustries"
+                        >
+                            Industries
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            [routerLink]="['/', routes.contact]"
+                            routerLinkActive="active"
+                            (click)="closeMenu()"
+                            i18n="@@navContact"
+                        >
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <app-language-switcher />
+        </div>
+    </div>
+</header>

@@ -666,6 +666,128 @@
       <trans-unit id="servicesCtaButton" datatype="html">
         <source> Hablemos de tu proyecto </source>
       </trans-unit>
+      <trans-unit id="industriesIntroEyebrow" datatype="html">
+        <source> Sectores </source>
+      </trans-unit>
+
+      <trans-unit id="industriesIntroTitle" datatype="html">
+        <source> Experiencia en ingeniería eléctrica para el sector del agua del Reino Unido </source>
+      </trans-unit>
+
+      <trans-unit id="industriesIntroDescription" datatype="html">
+        <source> Dongua Engineering aporta experiencia especializada en diseño eléctrico adquirida en proyectos de automatización de agua y aguas residuales, apoyando el desarrollo de sistemas de control y distribución robustos y fáciles de mantener. </source>
+      </trans-unit>
+
+      <trans-unit id="industriesWaterEyebrow" datatype="html">
+        <source> Agua y aguas residuales </source>
+      </trans-unit>
+
+      <trans-unit id="industriesWaterTitle" datatype="html">
+        <source> Experiencia desarrollada en entornos de ingeniería exigentes </source>
+      </trans-unit>
+
+      <trans-unit id="industriesWaterDescription" datatype="html">
+        <source> Experiencia en diseño eléctrico para proyectos de automatización de agua y aguas residuales, trabajando conforme a las especificaciones del cliente, las normas de ingeniería y los procedimientos establecidos del proyecto. </source>
+      </trans-unit>
+
+      <trans-unit id="industriesWaterSecondaryDescription" datatype="html">
+        <source> Esto incluye trabajos de ingeniería relacionados con cuadros de control, centros de control de motores, distribución de baja tensión y la documentación eléctrica necesaria para dar soporte a la fabricación, las pruebas y el desarrollo del proyecto. </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkEyebrow" datatype="html">
+        <source> Experiencia en el sector del agua del Reino Unido </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkTitle" datatype="html">
+        <source> Soporte de ingeniería alineado con los estándares del cliente y los requisitos del proyecto </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkDescription" datatype="html">
+        <source> La experiencia en diseño eléctrico se ha desarrollado a través de proyectos asociados a importantes compañías de agua del Reino Unido, trabajando conforme a sus especificaciones de ingeniería y requisitos establecidos para el desarrollo de los proyectos. </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkPointSpecifications" datatype="html">
+        <source> Especificaciones y estándares de ingeniería del cliente </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkPointDocumentation" datatype="html">
+        <source> Documentación de diseño eléctrico estructurada </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkPointCoordination" datatype="html">
+        <source> Coordinación con la documentación general de ingeniería del proyecto </source>
+      </trans-unit>
+
+      <trans-unit id="industriesUkPointDelivery" datatype="html">
+        <source> Diseño desarrollado para fabricación, pruebas y desarrollo del proyecto </source>
+      </trans-unit>
+
+      <trans-unit id="industriesApplicationsEyebrow" datatype="html">
+        <source> Automatización industrial </source>
+      </trans-unit>
+
+      <trans-unit id="industriesApplicationsTitle" datatype="html">
+        <source> Experiencia aplicable más allá de un único sector </source>
+      </trans-unit>
+
+      <trans-unit id="industriesApplicationsDescription" datatype="html">
+        <source> Aunque el sector del agua del Reino Unido representa una de las principales áreas de experiencia, las mismas capacidades de diseño de hardware eléctrico pueden aplicarse a una gama más amplia de proyectos de automatización industrial que requieran sistemas de control, control de motores y distribución de baja tensión. </source>
+      </trans-unit>
+
+      <trans-unit id="industriesCtaEyebrow" datatype="html">
+        <source> Soporte de ingeniería </source>
+      </trans-unit>
+
+      <trans-unit id="industriesCtaTitle" datatype="html">
+        <source> ¿Buscas soporte de ingeniería eléctrica para tu proyecto? </source>
+      </trans-unit>
+
+      <trans-unit id="industriesCtaButton" datatype="html">
+        <source> Hablemos de tu proyecto </source>
+      </trans-unit>
+      <trans-unit id="contactIntroEyebrow" datatype="html">
+        <source> Contacto </source>
+      </trans-unit>
+
+      <trans-unit id="contactIntroTitle" datatype="html">
+        <source> Hablemos de tu próximo proyecto de ingeniería eléctrica </source>
+      </trans-unit>
+
+      <trans-unit id="contactIntroDescription" datatype="html">
+        <source> Ponte en contacto para hablar sobre soporte de diseño de hardware eléctrico para proyectos de automatización industrial. </source>
+      </trans-unit>
+
+      <trans-unit id="contactDetailsEyebrow" datatype="html">
+        <source> Consultas de proyectos </source>
+      </trans-unit>
+
+      <trans-unit id="contactDetailsTitle" datatype="html">
+        <source> Cuéntanos sobre tu proyecto </source>
+      </trans-unit>
+
+      <trans-unit id="contactDetailsDescription" datatype="html">
+        <source> Dongua Engineering trabaja con integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería que requieren soporte especializado de diseño eléctrico o capacidad adicional de ingeniería. </source>
+      </trans-unit>
+
+      <trans-unit id="contactProjectDescription" datatype="html">
+        <source> La información útil puede incluir el alcance del proyecto, la documentación de ingeniería disponible, los estándares del cliente y los plazos requeridos. </source>
+      </trans-unit>
+
+      <trans-unit id="contactCardEyebrow" datatype="html">
+        <source> Inicia una conversación </source>
+      </trans-unit>
+
+      <trans-unit id="contactCardTitle" datatype="html">
+        <source> Ponte en contacto </source>
+      </trans-unit>
+
+      <trans-unit id="contactCardDescription" datatype="html">
+        <source> Envía un email con una breve descripción de tu proyecto y de los requisitos de ingeniería. </source>
+      </trans-unit>
+
+      <trans-unit id="contactEmailButton" datatype="html">
+        <source> Enviar un email </source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

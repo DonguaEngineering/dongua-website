@@ -233,6 +233,83 @@
           <context context-type="linenumber">245,247</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="contactIntroEyebrow" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactIntroTitle" datatype="html">
+        <source> Let&apos;s discuss your next electrical engineering project </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactIntroDescription" datatype="html">
+        <source> Get in touch to discuss electrical hardware design support for industrial automation projects. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactDetailsEyebrow" datatype="html">
+        <source> Project Enquiries </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactDetailsTitle" datatype="html">
+        <source> Tell us about your project </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactDetailsDescription" datatype="html">
+        <source> Dongua Engineering works with system integrators, panel builders and engineering contractors requiring specialist electrical design support or additional engineering capacity. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactProjectDescription" datatype="html">
+        <source> Useful information can include the project scope, available engineering documentation, client standards and required timescales. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactCardEyebrow" datatype="html">
+        <source> Start a Conversation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">64,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactCardTitle" datatype="html">
+        <source> Get in touch </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactCardDescription" datatype="html">
+        <source> Send an email with a brief description of your project and engineering requirements. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">75,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactEmailButton" datatype="html">
+        <source> Send an email </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/contact/contact.html</context>
+          <context context-type="linenumber">91,93</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="homeHeroEyebrow" datatype="html">
         <source> Electrical Engineering Solutions </source>
         <context-group purpose="location">
@@ -539,6 +616,146 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/home.html</context>
           <context context-type="linenumber">353,356</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesIntroEyebrow" datatype="html">
+        <source> Industries </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesIntroTitle" datatype="html">
+        <source> Electrical engineering experience for the UK water industry </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesIntroDescription" datatype="html">
+        <source> Dongua Engineering brings specialist electrical design experience from water and wastewater automation projects, supporting the development of robust and maintainable control and distribution systems. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesWaterEyebrow" datatype="html">
+        <source> Water &amp; Wastewater </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">33,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesWaterTitle" datatype="html">
+        <source> Experience developed within demanding engineering environments </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesWaterDescription" datatype="html">
+        <source> Experience in electrical design for water and wastewater automation projects, working within established client specifications, engineering standards and project procedures. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesWaterSecondaryDescription" datatype="html">
+        <source> This includes engineering work associated with control panels, motor control centres, low voltage distribution and the electrical documentation required to support manufacture, testing and project delivery. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkEyebrow" datatype="html">
+        <source> UK Water Industry Experience </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">74,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkTitle" datatype="html">
+        <source> Engineering support aligned with client standards and project requirements </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkDescription" datatype="html">
+        <source> Electrical design experience has been developed through projects associated with major UK water utilities, working within their established engineering specifications and project delivery requirements. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">88,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkPointSpecifications" datatype="html">
+        <source> Client engineering specifications and standards </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">97,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkPointDocumentation" datatype="html">
+        <source> Structured electrical design documentation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">101,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkPointCoordination" datatype="html">
+        <source> Coordination with wider project engineering information </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">105,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesUkPointDelivery" datatype="html">
+        <source> Design developed for manufacture, testing and project delivery </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesApplicationsEyebrow" datatype="html">
+        <source> Industrial Automation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesApplicationsTitle" datatype="html">
+        <source> Experience that extends beyond a single sector </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesApplicationsDescription" datatype="html">
+        <source> While the UK water industry represents a key area of experience, the same electrical hardware design capabilities can support a wider range of industrial automation projects requiring control, motor control and low voltage distribution systems. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">138,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesCtaEyebrow" datatype="html">
+        <source> Engineering Support </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">155,158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesCtaTitle" datatype="html">
+        <source> Looking for electrical engineering support for your project? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">159,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="industriesCtaButton" datatype="html">
+        <source> Discuss your project </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/industries/industries.html</context>
+          <context context-type="linenumber">168,170</context>
         </context-group>
       </trans-unit>
       <trans-unit id="servicesIntroEyebrow" datatype="html">

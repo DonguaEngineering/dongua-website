@@ -34,203 +34,252 @@
         <source> About Dongua Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">7,10</context>
+          <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aboutIntroTitle" datatype="html">
-        <source> Specialist electrical engineering for industrial automation </source>
+        <source> Electrical Engineering &amp; Industrial Automation </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">11,14</context>
+          <context context-type="linenumber">19,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aboutIntroDescription" datatype="html">
-        <source> Dongua Engineering Solutions provides electrical design expertise for industrial automation projects, with particular experience in control panels, MCCs and the UK water industry. </source>
+        <source> Specialist electrical design for industrial automation,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> with extensive experience in the UK water industry. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">18,21</context>
+          <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutOverviewEyebrow" datatype="html">
-        <source> Who We Are </source>
+      <trans-unit id="aboutFounderEyebrow" datatype="html">
+        <source> Meet the Founder </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">32,35</context>
+          <context context-type="linenumber">40,43</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutOverviewTitle" datatype="html">
-        <source> Practical engineering built around real project delivery </source>
+      <trans-unit id="aboutFounderTitle" datatype="html">
+        <source> Engineering experience with a personal approach </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">39,40</context>
+          <context context-type="linenumber">47,48</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutOverviewParagraphOne" datatype="html">
-        <source> Dongua Engineering Solutions S.L. is a specialist engineering company focused on electrical design for industrial automation. Our work is centred on producing clear, buildable and maintainable electrical designs that integrate effectively within wider engineering projects. </source>
+      <trans-unit id="aboutFounderRole" datatype="html">
+        <source> Founder &amp; Electrical Design Engineer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">45,49</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutOverviewParagraphTwo" datatype="html">
-        <source> The company brings experience from electrical engineering projects in the UK water and wastewater sector, including control panel and MCC design, motor control, electrical schematics and supporting technical documentation. </source>
+      <trans-unit id="aboutFounderShowProfileLabel" datatype="html">
+        <source>Show founder profile</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">53,56</context>
+          <context context-type="linenumber">78,79</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutOverviewParagraphThree" datatype="html">
-        <source> We work with system integrators, panel builders and engineering contractors that require specialist electrical engineering support or additional design capacity for their projects. </source>
+      <trans-unit id="aboutFounderCardEyebrow" datatype="html">
+        <source> About Me </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">60,62</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceEyebrow" datatype="html">
-        <source> Engineering Experience </source>
+      <trans-unit id="aboutFounderCardDescription" datatype="html">
+        <source> Electrical Engineer with 7+ years of experience in industrial automation and electrical hardware design, with a strong background in the UK water industry. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">74,77</context>
+          <context context-type="linenumber">115,117</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceTitle" datatype="html">
-        <source> Electrical design experience shaped by industrial projects </source>
+      <trans-unit id="aboutFounderQualificationValue" datatype="html">
+        <source> Electrical Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">81,84</context>
+          <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceDescription" datatype="html">
-        <source> Experience developed through electrical engineering work for industrial automation projects, particularly within the UK water and wastewater sector. </source>
+      <trans-unit id="aboutFounderLinkedIn" datatype="html">
+        <source> View LinkedIn Profile <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>↗<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">88,90</context>
+          <context context-type="linenumber">186,188</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceWaterTitle" datatype="html">
-        <source> Water &amp; Wastewater </source>
+      <trans-unit id="aboutFounderShowPhotoLabel" datatype="html">
+        <source>Show founder photograph</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">102,103</context>
+          <context context-type="linenumber">196,197</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceWaterDescription" datatype="html">
-        <source> Electrical design experience supporting automation projects across the UK water industry. </source>
+      <trans-unit id="aboutFounderStoryLead" datatype="html">
+        <source> My career has combined a strong electrical engineering foundation with practical experience delivering industrial automation projects in the United Kingdom. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">106,107</context>
+          <context context-type="linenumber">222,224</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperiencePanelsTitle" datatype="html">
-        <source> Control Panels &amp; MCCs </source>
+      <trans-unit id="aboutFounderStoryParagraphOne" datatype="html">
+        <source> After graduating in Electrical Engineering from the University of Málaga, I developed my early automation experience working on electrical design, control panels, HMI and PLC-based systems. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">119,120</context>
+          <context context-type="linenumber">228,231</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperiencePanelsDescription" datatype="html">
-        <source> Design experience covering control panels, motor control centres, motor starters, variable speed drives and associated control systems. </source>
+      <trans-unit id="aboutFounderStoryParagraphTwo" datatype="html">
+        <source> I later specialised in electrical hardware design, supporting water and wastewater projects through the development of MCCs, local control panels, low voltage distribution boards, electrical schematics, general arrangements and engineering documentation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">123,125</context>
+          <context context-type="linenumber">235,239</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceDocumentationTitle" datatype="html">
-        <source> Electrical Documentation </source>
+      <trans-unit id="aboutFounderStoryParagraphThree" datatype="html">
+        <source> Dongua Engineering was created to provide that specialist experience directly to system integrators, panel builders and engineering contractors requiring flexible electrical design capacity. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">137,138</context>
+          <context context-type="linenumber">243,246</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutExperienceDocumentationDescription" datatype="html">
-        <source> Structured electrical schematics, panel layouts and engineering documentation developed for manufacture, testing and project delivery. </source>
+      <trans-unit id="aboutBackgroundEyebrow" datatype="html">
+        <source> Professional Background </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">141,143</context>
+          <context context-type="linenumber">260,263</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutApproachEyebrow" datatype="html">
-        <source> Professional Approach </source>
+      <trans-unit id="aboutBackgroundTitle" datatype="html">
+        <source> From industrial automation to specialist electrical design </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">157,160</context>
+          <context context-type="linenumber">267,269</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutApproachTitle" datatype="html">
-        <source> Engineering focused on practical project delivery </source>
+      <trans-unit id="aboutCareerHemcoRole" datatype="html">
+        <source> Electrical Engineer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">164,165</context>
+          <context context-type="linenumber">286,287</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutApproachDescription" datatype="html">
-        <source> Our approach is based on clear communication, structured engineering documentation and electrical designs developed with manufacture, testing, installation and maintainability in mind. </source>
+      <trans-unit id="aboutCareerHemcoDescription" datatype="html">
+        <source> Early professional experience in industrial automation, including electrical design, control panel testing, HMI configuration and commissioning support. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">171,174</context>
+          <context context-type="linenumber">290,292</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutApproachSecondaryDescription" datatype="html">
-        <source> Dongua Engineering works as an extension of the wider project team, adapting to client standards, engineering requirements and established project workflows. </source>
+      <trans-unit id="aboutCareerTetechRole" datatype="html">
+        <source> Senior Electrical Design Engineer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">181,184</context>
+          <context context-type="linenumber">313,314</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialQualificationTitle" datatype="html">
-        <source> Engineering Background </source>
+      <trans-unit id="aboutCareerTetechDescription" datatype="html">
+        <source> Specialist electrical hardware design for UK water and wastewater projects, including MCCs, control panels, LV distribution, electrical schematics, panel layouts and supporting engineering documentation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">194,197</context>
+          <context context-type="linenumber">317,320</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialQualificationDescription" datatype="html">
-        <source> Electrical Engineering background supported by formal university education and practical industrial project experience. </source>
+      <trans-unit id="aboutCareerDonguaRole" datatype="html">
+        <source> Founder &amp; Electrical Design Engineer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">198,200</context>
+          <context context-type="linenumber">339,340</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialToolsTitle" datatype="html">
-        <source> Engineering Tools </source>
+      <trans-unit id="aboutCareerDonguaDescription" datatype="html">
+        <source> Providing specialist electrical design support for industrial automation projects, with particular experience supporting the UK water sector. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">210,211</context>
+          <context context-type="linenumber">343,345</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialToolsDescription" datatype="html">
-        <source> Electrical design and documentation developed using professional engineering tools including Bentley Promis.e and AutoCAD. </source>
+      <trans-unit id="aboutQualificationsTitle" datatype="html">
+        <source> Qualifications <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>&amp; Credentials<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">214,216</context>
+          <context context-type="linenumber">360,362</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialInsuranceTitle" datatype="html">
-        <source> Professional Insurance </source>
+      <trans-unit id="aboutQualificationUmaLabel" datatype="html">
+        <source> University Qualification </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">226,229</context>
+          <context context-type="linenumber">378,379</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialInsuranceDescription" datatype="html">
-        <source> Professional Indemnity and Public Liability insurance maintained for engineering activities. </source>
+      <trans-unit id="aboutQualificationUmaTitle" datatype="html">
+        <source> Graduate in Electrical Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">230,232</context>
+          <context context-type="linenumber">382,383</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialDeliveryTitle" datatype="html">
-        <source> Flexible Project Support </source>
+      <trans-unit id="aboutQualificationUmaYear" datatype="html">
+        <source> Awarded 2017 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">241,244</context>
+          <context context-type="linenumber">388,389</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aboutCredentialDeliveryDescription" datatype="html">
-        <source> Remote engineering support structured to integrate with system integrators, panel builders and engineering contractors. </source>
+      <trans-unit id="aboutQualificationNaricLabel" datatype="html">
+        <source> Statement of Comparability </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/about/about.html</context>
-          <context context-type="linenumber">245,247</context>
+          <context context-type="linenumber">405,406</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutQualificationNaricTitle" datatype="html">
+        <source> Comparable to a Bachelor (Honours) degree </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">409,410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutQualificationNaricLevel" datatype="html">
+        <source> RQF Level 6 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">412,413</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutQualificationNaricYear" datatype="html">
+        <source> Statement issued 2018 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">417,418</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutInsuranceProfessionalTitle" datatype="html">
+        <source> Professional Indemnity Insurance </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">429,430</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutInsuranceProfessionalDescription" datatype="html">
+        <source> Insurance maintained for professional engineering activities. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">432,433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutInsurancePublicTitle" datatype="html">
+        <source> Public Liability Insurance </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">443,444</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutInsurancePublicDescription" datatype="html">
+        <source> Public Liability insurance maintained for company activities. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about/about.html</context>
+          <context context-type="linenumber">446,447</context>
         </context-group>
       </trans-unit>
       <trans-unit id="contactIntroEyebrow" datatype="html">

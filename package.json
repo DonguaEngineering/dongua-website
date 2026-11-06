@@ -8,7 +8,9 @@
     "postbuild": "node scripts/copy-cloudflare-files.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:dongua-website": "node dist/dongua-website/server/server.mjs"
+    "serve:ssr:dongua-website": "node dist/dongua-website/server/server.mjs",
+    "i18n:extract": "ng extract-i18n --output-path src/locale",
+    "i18n:sync": "node scripts/sync-translations.mjs"
   },
   "private": true,
   "packageManager": "npm@11.6.2",

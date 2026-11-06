@@ -134,11 +134,7 @@
 
 .founder-card-scene {
     width: 100%;
-    max-width: 31rem;
-
-    margin-inline: auto;
-
-    perspective: 1200px;
+    aspect-ratio: 4 / 5;
 }
 
 .founder-card {
@@ -348,7 +344,7 @@
 }
 
 .founder-card-back h3 {
-    margin: 1.5rem 0 0;
+    margin: 1.25rem 0 0;
 
     color: var(--color-background);
 
@@ -1028,7 +1024,9 @@
     .about-hero::after {
         display: none;
     }
-
+    .founder-card{
+        aspect-ratio: 4 / 5.8;
+    }
     .founder,
     .professional-background {
         padding-block: 4rem;
@@ -1048,7 +1046,8 @@
     }
 
     .founder-card-bio {
-        font-size: 0.92rem;
+        font-size: 0.8rem;
+        line-height: 1.55;
     }
 
     .founder-linkedin-row {

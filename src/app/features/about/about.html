@@ -1,252 +1,454 @@
-<section class="page-intro">
-    <div class="page-intro-container site-container">
-        <p
-            class="section-eyebrow"
-            i18n="@@aboutIntroEyebrow"
-        >
-            About Dongua Engineering
-        </p>
-
-        <h1 i18n="@@aboutIntroTitle">
-            Specialist electrical engineering for industrial automation
-        </h1>
-
-        <p
-            class="page-intro-description"
-            i18n="@@aboutIntroDescription"
-        >
-            Dongua Engineering Solutions provides electrical design
-            expertise for industrial automation projects, with particular
-            experience in control panels, MCCs and the UK water industry.
-        </p>
+<section class="about-hero">
+    <div class="about-hero-visual" aria-hidden="true">
+        <img
+            src="images/about/about-hero-mcc.webp"
+            alt=""
+        />
     </div>
-</section>
 
-<section class="about-overview">
-    <div class="about-overview-container site-container">
-        <div class="about-overview-heading">
+    <div class="about-hero-container site-container">
+        <div class="about-hero-content">
             <p
                 class="section-eyebrow"
-                i18n="@@aboutOverviewEyebrow"
+                i18n="@@aboutIntroEyebrow"
             >
-                Who We Are
+                About Dongua Engineering
             </p>
 
-            <h2
-                class="section-title"
-                i18n="@@aboutOverviewTitle"
+            <h1 i18n="@@aboutIntroTitle">
+                Electrical Engineering & Industrial Automation
+            </h1>
+
+            <p
+                class="about-hero-description"
+                i18n="@@aboutIntroDescription"
             >
-                Practical engineering built around real project delivery
-            </h2>
-        </div>
-
-        <div class="about-overview-content">
-            <p i18n="@@aboutOverviewParagraphOne">
-                Dongua Engineering Solutions S.L. is a specialist engineering
-                company focused on electrical design for industrial automation.
-                Our work is centred on producing clear, buildable and
-                maintainable electrical designs that integrate effectively
-                within wider engineering projects.
-            </p>
-
-            <p i18n="@@aboutOverviewParagraphTwo">
-                The company brings experience from electrical engineering
-                projects in the UK water and wastewater sector, including
-                control panel and MCC design, motor control, electrical
-                schematics and supporting technical documentation.
-            </p>
-
-            <p i18n="@@aboutOverviewParagraphThree">
-                We work with system integrators, panel builders and engineering
-                contractors that require specialist electrical engineering
-                support or additional design capacity for their projects.
+                Specialist electrical design for industrial automation,<br />
+                with extensive experience in the UK water industry.
             </p>
         </div>
     </div>
 </section>
-<section class="engineering-experience">
-    <div class="engineering-experience-container site-container">
-        <div class="engineering-experience-content">
+
+<section class="founder">
+    <div class="founder-container site-container">
+        <div class="founder-heading">
             <p
                 class="section-eyebrow"
-                i18n="@@aboutExperienceEyebrow"
+                i18n="@@aboutFounderEyebrow"
             >
-                Engineering Experience
+                Meet the Founder
             </p>
 
             <h2
                 class="section-title"
-                i18n="@@aboutExperienceTitle"
+                i18n="@@aboutFounderTitle"
             >
-                Electrical design experience shaped by industrial projects
+                Engineering experience with a personal approach
             </h2>
-
-            <p
-                class="engineering-experience-description section-copy"
-                i18n="@@aboutExperienceDescription"
-            >
-                Experience developed through electrical engineering work for
-                industrial automation projects, particularly within the UK
-                water and wastewater sector.
-            </p>
         </div>
 
-        <div class="engineering-experience-list">
-            <article class="experience-item">
-                <span class="experience-number" aria-hidden="true">
-                    01
-                </span>
+        <div class="founder-layout">
+            <div class="founder-card-scene">
+                <article
+                    class="founder-card"
+                    [class.is-flipped]="profileFlipped"
+                >
+                    <div class="founder-card-inner">
 
-                <div>
-                    <h3 i18n="@@aboutExperienceWaterTitle">
-                        Water & Wastewater
-                    </h3>
+                        <div class="founder-card-face founder-card-front">
+                            <img
+                                src="images/about/evarishtu-dongua-founder.webp"
+                                alt="Evarishtu Dongua Kuzin, Founder and Electrical Design Engineer at Dongua Engineering"
+                            />
 
-                    <p i18n="@@aboutExperienceWaterDescription">
-                        Electrical design experience supporting automation
-                        projects across the UK water industry.
-                    </p>
-                </div>
-            </article>
+                            <div class="founder-card-overlay">
+                                <div>
+                                    <h3>Evarishtu Dongua Kuzin</h3>
 
-            <article class="experience-item">
-                <span class="experience-number" aria-hidden="true">
-                    02
-                </span>
+                                    <p i18n="@@aboutFounderRole">
+                                        Founder & Electrical Design Engineer
+                                    </p>
+                                </div>
 
-                <div>
-                    <h3 i18n="@@aboutExperiencePanelsTitle">
-                        Control Panels & MCCs
-                    </h3>
+                                <button
+                                    class="founder-card-toggle"
+                                    type="button"
+                                    [attr.aria-pressed]="profileFlipped"
+                                    aria-label="Show founder profile"
+                                    i18n-aria-label="@@aboutFounderShowProfileLabel"
+                                    (click)="toggleProfileCard()"
+                                >
+                                    <span aria-hidden="true">↻</span>
+                                </button>
+                            </div>
+                        </div>
 
-                    <p i18n="@@aboutExperiencePanelsDescription">
-                        Design experience covering control panels, motor
-                        control centres, motor starters, variable speed drives
-                        and associated control systems.
-                    </p>
-                </div>
-            </article>
+                        <div class="founder-card-face founder-card-back">
+                            <div class="founder-card-back-content">
 
-            <article class="experience-item">
-                <span class="experience-number" aria-hidden="true">
-                    03
-                </span>
+                                <div class="founder-card-heading">
+                                    <svg
+                                        class="founder-card-heading-icon"
+                                        viewBox="0 0 16 16"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                                        />
+                                    </svg>
 
-                <div>
-                    <h3 i18n="@@aboutExperienceDocumentationTitle">
-                        Electrical Documentation
-                    </h3>
+                                    <p
+                                        class="founder-card-kicker"
+                                        i18n="@@aboutFounderCardEyebrow"
+                                    >
+                                        About Me
+                                    </p>
+                                </div>
 
-                    <p i18n="@@aboutExperienceDocumentationDescription">
-                        Structured electrical schematics, panel layouts and
-                        engineering documentation developed for manufacture,
-                        testing and project delivery.
-                    </p>
-                </div>
-            </article>
+                                <h3>Evarishtu Dongua Kuzin</h3>
+
+                                <p
+                                    class="founder-card-bio"
+                                    i18n="@@aboutFounderCardDescription"
+                                >
+                                    Electrical Engineer with 7+ years of experience in industrial
+                                    automation and electrical hardware design, with a strong
+                                    background in the UK water industry.
+                                </p>
+
+                                <div class="founder-details">
+
+                                    <div class="founder-detail">
+                                        <svg
+                                            class="founder-detail-icon"
+                                            viewBox="0 0 16 16"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+                                            />
+                                            <path
+                                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"
+                                            />
+                                        </svg>
+
+                                        <div>
+                                            <strong i18n="@@aboutFounderQualificationValue">
+                                                Electrical Engineering
+                                            </strong>
+
+                                            <span>
+                                                Universidad de Málaga
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="founder-detail">
+                                        <svg
+                                            class="founder-detail-icon"
+                                            viewBox="0 0 16 16"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                                            />
+                                            <path
+                                                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                                            />
+                                        </svg>
+
+                                        <div>
+                                            <strong>Málaga, Spain</strong>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="founder-linkedin-row">
+                                    <svg
+                                        class="founder-linkedin-icon"
+                                        viewBox="0 0 16 16"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                        />
+                                    </svg>
+
+                                    <a
+                                        class="founder-linkedin"
+                                        href="https://www.linkedin.com/in/evarishtu-dongua-kuzin-326882b7/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        i18n="@@aboutFounderLinkedIn"
+                                    >   
+                                            View LinkedIn Profile                                     
+                                        <span aria-hidden="true">↗</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <button
+                                class="founder-card-toggle founder-card-toggle-back"
+                                type="button"
+                                [attr.aria-pressed]="profileFlipped"
+                                aria-label="Show founder photograph"
+                                i18n-aria-label="@@aboutFounderShowPhotoLabel"
+                                (click)="toggleProfileCard()"
+                            >
+                                <svg
+                                    viewBox="0 0 16 16"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="founder-story">
+                <p
+                    class="founder-story-lead"
+                    i18n="@@aboutFounderStoryLead"
+                >
+                    My career has combined a strong electrical engineering
+                    foundation with practical experience delivering industrial
+                    automation projects in the United Kingdom.
+                </p>
+
+                <p i18n="@@aboutFounderStoryParagraphOne">
+                    After graduating in Electrical Engineering from the
+                    University of Málaga, I developed my early automation
+                    experience working on electrical design, control panels,
+                    HMI and PLC-based systems.
+                </p>
+
+                <p i18n="@@aboutFounderStoryParagraphTwo">
+                    I later specialised in electrical hardware design,
+                    supporting water and wastewater projects through the
+                    development of MCCs, local control panels, low voltage
+                    distribution boards, electrical schematics, general
+                    arrangements and engineering documentation.
+                </p>
+
+                <p i18n="@@aboutFounderStoryParagraphThree">
+                    Dongua Engineering was created to provide that specialist
+                    experience directly to system integrators, panel builders
+                    and engineering contractors requiring flexible electrical
+                    design capacity.
+                </p>
+            </div>
         </div>
     </div>
 </section>
-<section class="professional-approach">
-    <div class="professional-approach-container site-container">
-        <div class="professional-approach-content">
+
+<section class="professional-background">
+    <div class="professional-background-container site-container">
+        <div class="professional-background-heading">
             <p
                 class="section-eyebrow"
-                i18n="@@aboutApproachEyebrow"
+                i18n="@@aboutBackgroundEyebrow"
             >
-                Professional Approach
+                Professional Background
             </p>
 
             <h2
                 class="section-title"
-                i18n="@@aboutApproachTitle"
+                i18n="@@aboutBackgroundTitle"
             >
-                Engineering focused on practical project delivery
+                From industrial automation to specialist electrical design
             </h2>
-
-            <p
-                class="professional-approach-description section-copy"
-                i18n="@@aboutApproachDescription"
-            >
-                Our approach is based on clear communication, structured
-                engineering documentation and electrical designs developed
-                with manufacture, testing, installation and maintainability
-                in mind.
-            </p>
-
-            <p
-                class="professional-approach-description section-copy"
-                i18n="@@aboutApproachSecondaryDescription"
-            >
-                Dongua Engineering works as an extension of the wider project
-                team, adapting to client standards, engineering requirements
-                and established project workflows.
-            </p>
         </div>
 
-        <div class="credentials-grid">
-            <article class="credential-card">
-                <span class="credential-number" aria-hidden="true">
-                    01
-                </span>
+        <ol class="career-timeline">
+            <li class="career-item">
+                <div class="career-marker" aria-hidden="true"></div>
 
-                <h3 i18n="@@aboutCredentialQualificationTitle">
-                    Engineering Background
-                </h3>
+                <div class="career-content">
+                    <p class="career-period">
+                        2018 — 2019
+                    </p>
 
-                <p i18n="@@aboutCredentialQualificationDescription">
-                    Electrical Engineering background supported by formal
-                    university education and practical industrial project
-                    experience.
-                </p>
-            </article>
+                    <h3>Hemco Process Solutions</h3>
 
-            <article class="credential-card">
-                <span class="credential-number" aria-hidden="true">
-                    02
-                </span>
+                    <p
+                        class="career-role"
+                        i18n="@@aboutCareerHemcoRole"
+                    >
+                        Electrical Engineer
+                    </p>
 
-                <h3 i18n="@@aboutCredentialToolsTitle">
-                    Engineering Tools
-                </h3>
+                    <p i18n="@@aboutCareerHemcoDescription">
+                        Early professional experience in industrial automation,
+                        including electrical design, control panel testing,
+                        HMI configuration and commissioning support.
+                    </p>
+                </div>
+            </li>
 
-                <p i18n="@@aboutCredentialToolsDescription">
-                    Electrical design and documentation developed using
-                    professional engineering tools including Bentley Promis.e
-                    and AutoCAD.
-                </p>
-            </article>
+            <li class="career-item">
+                <div class="career-marker" aria-hidden="true"></div>
 
-            <article class="credential-card">
-                <span class="credential-number" aria-hidden="true">
-                    03
-                </span>
+                <div class="career-content">
+                    <p class="career-period">
+                        2020 — 2026
+                    </p>
 
-                <h3 i18n="@@aboutCredentialInsuranceTitle">
-                    Professional Insurance
-                </h3>
+                    <h3>
+                        Te-Tech Process Solutions Ltd
+                    </h3>
 
-                <p i18n="@@aboutCredentialInsuranceDescription">
-                    Professional Indemnity and Public Liability insurance
-                    maintained for engineering activities.
-                </p>
-            </article>
+                    <p
+                        class="career-role"
+                        i18n="@@aboutCareerTetechRole"
+                    >
+                        Senior Electrical Design Engineer
+                    </p>
 
-            <article class="credential-card">
-                <span class="credential-number" aria-hidden="true">
-                    04
-                </span>
+                    <p i18n="@@aboutCareerTetechDescription">
+                        Specialist electrical hardware design for UK water and
+                        wastewater projects, including MCCs, control panels,
+                        LV distribution, electrical schematics, panel layouts
+                        and supporting engineering documentation.
+                    </p>
+                </div>
+            </li>
 
-                <h3 i18n="@@aboutCredentialDeliveryTitle">
-                    Flexible Project Support
-                </h3>
+            <li class="career-item">
+                <div class="career-marker" aria-hidden="true"></div>
 
-                <p i18n="@@aboutCredentialDeliveryDescription">
-                    Remote engineering support structured to integrate with
-                    system integrators, panel builders and engineering
-                    contractors.
-                </p>
-            </article>
+                <div class="career-content">
+                    <p class="career-period">
+                        2026 — Present
+                    </p>
+
+                    <h3>Dongua Engineering Solutions S.L.</h3>
+
+                    <p
+                        class="career-role"
+                        i18n="@@aboutCareerDonguaRole"
+                    >
+                        Founder & Electrical Design Engineer
+                    </p>
+
+                    <p i18n="@@aboutCareerDonguaDescription">
+                        Providing specialist electrical design support for
+                        industrial automation projects, with particular
+                        experience supporting the UK water sector.
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<section class="qualifications-strip">
+    <div class="qualifications-strip-container site-container">
+        <div class="qualifications-strip-heading">
+            <h2
+                class="qualifications-strip-title"
+                i18n="@@aboutQualificationsTitle"
+            >
+                Qualifications
+                <span>& Credentials</span>
+            </h2>
+        </div>
+
+        <div class="qualifications-strip-content">
+            <div class="qualifications-cards">
+                <article class="qualification-card qualification-card--uma">
+                    <div class="qualification-card-logo">
+                        <img
+                            src="images/about/uma-logo.svg"
+                            alt="Universidad de Málaga"
+                        />
+                    </div>
+
+                    <div class="qualification-card-body">
+                        <p class="qualification-card-label"
+                            i18n="@@aboutQualificationUmaLabel">
+                            University Qualification
+                        </p>
+
+                        <h3 i18n="@@aboutQualificationUmaTitle">
+                            Graduate in Electrical Engineering
+                        </h3>
+                        <p>Universidad de Málaga</p>
+                        <p class="qualification-card-meta"
+                            i18n="@@aboutQualificationUmaYear"
+                        >
+                            Awarded 2017
+                        </p>
+                    </div>
+                </article>
+
+                <article class="qualification-card qualification-card--naric">
+                    <div class="qualification-card-logo">
+                        <img
+                            src="images/about/naric-logo.svg"
+                            alt="UK NARIC"
+                        />
+                    </div>
+
+                    <div class="qualification-card-body">
+                        <p class="qualification-card-label"
+                            i18n="@@aboutQualificationNaricLabel"
+                        >
+                            Statement of Comparability
+                        </p>
+
+                        <h3 i18n="@@aboutQualificationNaricTitle">
+                            Comparable to a Bachelor (Honours) degree
+                        </h3>
+                        <p i18n="@@aboutQualificationNaricLevel">
+                            RQF Level 6
+                        </p>
+                        <p class="qualification-card-meta"
+                            i18n="@@aboutQualificationNaricYear"
+                        >
+                            Statement issued 2018
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="insurance-stack">
+                <article class="insurance-card">
+                    <div class="insurance-icon">✓</div>
+
+                    <div>
+                        <h3 i18n="@@aboutInsuranceProfessionalTitle">
+                            Professional Indemnity Insurance
+                        </h3>
+                        <p i18n="@@aboutInsuranceProfessionalDescription">
+                            Insurance maintained for professional engineering
+                            activities.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="insurance-card">
+                    <div class="insurance-icon">✓</div>
+
+                    <div>
+                        <h3 i18n="@@aboutInsurancePublicTitle">
+                            Public Liability Insurance
+                        </h3>
+                        <p i18n="@@aboutInsurancePublicDescription">
+                            Public Liability insurance maintained for company
+                            activities.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </div>
     </div>
 </section>

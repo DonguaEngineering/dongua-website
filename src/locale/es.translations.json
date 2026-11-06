@@ -1,0 +1,46 @@
+{
+    "aboutFounderEyebrow": "Conoce al fundador",
+    "aboutFounderTitle": "Experiencia en ingeniería con un enfoque personal",
+    "aboutFounderRole": "Fundador e Ingeniero de Diseño Eléctrico",
+    "aboutFounderShowProfileLabel": "Mostrar perfil del fundador",
+    "aboutFounderCardEyebrow": "Sobre mí",
+    "aboutFounderCardDescription": "Ingeniero eléctrico con más de 7 años de experiencia en automatización industrial y diseño de hardware eléctrico, con una sólida trayectoria en el sector del agua del Reino Unido.",
+    "aboutFounderQualificationValue": "Ingeniería Eléctrica",
+    "aboutFounderShowPhotoLabel": "Mostrar fotografía del fundador",
+
+    "aboutFounderStoryLead": "Mi trayectoria profesional combina una sólida formación en ingeniería eléctrica con experiencia práctica en el desarrollo de proyectos de automatización industrial en el Reino Unido.",
+    "aboutFounderStoryParagraphOne": "Tras graduarme en Ingeniería Eléctrica por la Universidad de Málaga, adquirí mi experiencia inicial en automatización trabajando en diseño eléctrico, cuadros de control y sistemas basados en HMI y PLC.",
+    "aboutFounderStoryParagraphTwo": "Posteriormente me especialicé en diseño de hardware eléctrico, dando soporte a proyectos de agua y aguas residuales mediante el desarrollo de MCC, cuadros de control local, cuadros de distribución de baja tensión, esquemas eléctricos, planos de disposición general y documentación de ingeniería.",
+    "aboutFounderStoryParagraphThree": "Dongua Engineering nació para ofrecer directamente esta experiencia especializada a integradores de sistemas, fabricantes de cuadros y contratistas de ingeniería que requieran capacidad flexible de diseño eléctrico.",
+
+    "aboutBackgroundEyebrow": "Trayectoria profesional",
+    "aboutBackgroundTitle": "De la automatización industrial al diseño eléctrico especializado",
+
+    "aboutCareerHemcoRole": "Ingeniero Eléctrico",
+    "aboutCareerHemcoDescription": "Experiencia profesional inicial en automatización industrial, incluyendo diseño eléctrico, pruebas de cuadros de control, configuración de HMI y soporte durante la puesta en marcha.",
+
+    "aboutCareerTetechRole": "Ingeniero Sénior de Diseño Eléctrico",
+    "aboutCareerTetechDescription": "Diseño especializado de hardware eléctrico para proyectos de agua y aguas residuales en el Reino Unido, incluyendo MCC, cuadros de control, distribución de baja tensión, esquemas eléctricos, layouts de cuadros y documentación de ingeniería asociada.",
+
+    "aboutCareerDonguaRole": "Fundador e Ingeniero de Diseño Eléctrico",
+    "aboutCareerDonguaDescription": "Prestación de soporte especializado de diseño eléctrico para proyectos de automatización industrial, con especial experiencia en el sector del agua del Reino Unido.",
+
+    "aboutQualificationUmaLabel": "Titulación universitaria",
+    "aboutQualificationUmaTitle": "Graduado en Ingeniería Eléctrica",
+    "aboutQualificationUmaYear": "Título obtenido en 2017",
+
+    "aboutQualificationNaricLabel": "Declaración de comparabilidad",
+    "aboutQualificationNaricTitle": "Comparable a un Bachelor (Honours) degree",
+    "aboutQualificationNaricLevel": "Nivel 6 del RQF",
+    "aboutQualificationNaricYear": "Declaración emitida en 2018",
+
+    "aboutInsuranceProfessionalTitle": "Seguro de Responsabilidad Civil Profesional",
+    "aboutInsuranceProfessionalDescription": "Seguro vigente para las actividades profesionales de ingeniería.",
+
+    "aboutInsurancePublicTitle": "Seguro de Responsabilidad Civil",
+    "aboutInsurancePublicDescription": "Seguro de Responsabilidad Civil vigente para las actividades de la empresa.",
+
+    "footerContactHeading": "Contacto",
+    "headerMenuToggleLabel": "Abrir o cerrar el menú de navegación",
+    "headerMainNavigationLabel": "Navegación principal"
+}
